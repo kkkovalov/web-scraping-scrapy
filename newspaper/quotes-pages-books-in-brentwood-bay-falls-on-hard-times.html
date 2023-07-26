@@ -1,0 +1,1405 @@
+
+<!doctype html>
+<html class="no-js" lang="en-US" prefix="og: https://ogp.me/ns#" >
+    <head>
+
+        <meta charset="UTF-8" /><script type="text/javascript">(window.NREUM||(NREUM={})).init={ajax:{deny_list:["bam.nr-data.net"]}};(window.NREUM||(NREUM={})).loader_config={licenseKey:"e4824da135",applicationID:"103630669"};;/*! For license information please see nr-loader-rum-1.236.0.min.js.LICENSE.txt */
+(()=>{"use strict";var e,t,n={5763:(e,t,n)=>{n.d(t,{P_:()=>f,Mt:()=>p,C5:()=>s,DL:()=>m,OP:()=>_,lF:()=>E,Yu:()=>y,Dg:()=>g,CX:()=>c,GE:()=>b,sU:()=>j});var r=n(8632),i=n(9567);const o={beacon:r.ce.beacon,errorBeacon:r.ce.errorBeacon,licenseKey:void 0,applicationID:void 0,sa:void 0,queueTime:void 0,applicationTime:void 0,ttGuid:void 0,user:void 0,account:void 0,product:void 0,extra:void 0,jsAttributes:{},userAttributes:void 0,atts:void 0,transactionName:void 0,tNamePlain:void 0},a={};function s(e){if(!e)throw new Error("All info objects require an agent identifier!");if(!a[e])throw new Error("Info for ".concat(e," was never set"));return a[e]}function c(e,t){if(!e)throw new Error("All info objects require an agent identifier!");a[e]=(0,i.D)(t,o),(0,r.Qy)(e,a[e],"info")}var d=n(7056);const u=()=>{const e={blockSelector:"[data-nr-block]",maskInputOptions:{password:!0}};return{allow_bfcache:!0,privacy:{cookies_enabled:!0},ajax:{deny_list:void 0,enabled:!0,harvestTimeSeconds:10},distributed_tracing:{enabled:void 0,exclude_newrelic_header:void 0,cors_use_newrelic_header:void 0,cors_use_tracecontext_headers:void 0,allowed_origins:void 0},session:{domain:void 0,expiresMs:d.oD,inactiveMs:d.Hb},ssl:void 0,obfuscate:void 0,jserrors:{enabled:!0,harvestTimeSeconds:10},metrics:{enabled:!0},page_action:{enabled:!0,harvestTimeSeconds:30},page_view_event:{enabled:!0},page_view_timing:{enabled:!0,harvestTimeSeconds:30,long_task:!1},session_trace:{enabled:!0,harvestTimeSeconds:10},harvest:{tooManyRequestsDelay:60},session_replay:{enabled:!1,harvestTimeSeconds:60,sampleRate:.1,errorSampleRate:.1,maskTextSelector:"*",maskAllInputs:!0,get blockClass(){return"nr-block"},get ignoreClass(){return"nr-ignore"},get maskTextClass(){return"nr-mask"},get blockSelector(){return e.blockSelector},set blockSelector(t){e.blockSelector+=",".concat(t)},get maskInputOptions(){return e.maskInputOptions},set maskInputOptions(t){e.maskInputOptions={...t,password:!0}}},spa:{enabled:!0,harvestTimeSeconds:10}}},l={};function f(e){if(!e)throw new Error("All configuration objects require an agent identifier!");if(!l[e])throw new Error("Configuration for ".concat(e," was never set"));return l[e]}function g(e,t){if(!e)throw new Error("All configuration objects require an agent identifier!");l[e]=(0,i.D)(t,u()),(0,r.Qy)(e,l[e],"config")}function p(e,t){if(!e)throw new Error("All configuration objects require an agent identifier!");var n=f(e);if(n){for(var r=t.split("."),i=0;i<r.length-1;i++)if("object"!=typeof(n=n[r[i]]))return;n=n[r[r.length-1]]}return n}const h={accountID:void 0,trustKey:void 0,agentID:void 0,licenseKey:void 0,applicationID:void 0,xpid:void 0},v={};function m(e){if(!e)throw new Error("All loader-config objects require an agent identifier!");if(!v[e])throw new Error("LoaderConfig for ".concat(e," was never set"));return v[e]}function b(e,t){if(!e)throw new Error("All loader-config objects require an agent identifier!");v[e]=(0,i.D)(t,h),(0,r.Qy)(e,v[e],"loader_config")}const y=(0,r.mF)().o;var w=n(385),A=n(6818);const x={buildEnv:A.Re,bytesSent:{},queryBytesSent:{},customTransaction:void 0,disabled:!1,distMethod:A.gF,isolatedBacklog:!1,loaderType:void 0,maxBytes:3e4,offset:Math.floor(w._A?.performance?.timeOrigin||w._A?.performance?.timing?.navigationStart||Date.now()),onerror:void 0,origin:""+w._A.location,ptid:void 0,releaseIds:{},session:void 0,xhrWrappable:"function"==typeof w._A.XMLHttpRequest?.prototype?.addEventListener,version:A.q4},D={};function _(e){if(!e)throw new Error("All runtime objects require an agent identifier!");if(!D[e])throw new Error("Runtime for ".concat(e," was never set"));return D[e]}function j(e,t){if(!e)throw new Error("All runtime objects require an agent identifier!");D[e]=(0,i.D)(t,x),(0,r.Qy)(e,D[e],"runtime")}function E(e){return function(e){try{const t=s(e);return!!t.licenseKey&&!!t.errorBeacon&&!!t.applicationID}catch(e){return!1}}(e)}},9567:(e,t,n)=>{n.d(t,{D:()=>i});var r=n(50);function i(e,t){try{if(!e||"object"!=typeof e)return(0,r.Z)("Setting a Configurable requires an object as input");if(!t||"object"!=typeof t)return(0,r.Z)("Setting a Configurable requires a model to set its initial properties");const n=Object.create(Object.getPrototypeOf(t),Object.getOwnPropertyDescriptors(t)),o=0===Object.keys(n).length?e:n;for(let a in o)if(void 0!==e[a])try{"object"==typeof e[a]&&"object"==typeof t[a]?n[a]=i(e[a],t[a]):n[a]=e[a]}catch(e){(0,r.Z)("An error occurred while setting a property of a Configurable",e)}return n}catch(e){(0,r.Z)("An error occured while setting a Configurable",e)}}},6818:(e,t,n)=>{n.d(t,{Re:()=>i,gF:()=>o,q4:()=>r});const r="1.236.0",i="PROD",o="CDN"},385:(e,t,n)=>{n.d(t,{FN:()=>a,IF:()=>d,Nk:()=>l,Tt:()=>s,_A:()=>o,il:()=>r,pL:()=>c,v6:()=>i,w1:()=>u});const r="undefined"!=typeof window&&!!window.document,i="undefined"!=typeof WorkerGlobalScope&&("undefined"!=typeof self&&self instanceof WorkerGlobalScope&&self.navigator instanceof WorkerNavigator||"undefined"!=typeof globalThis&&globalThis instanceof WorkerGlobalScope&&globalThis.navigator instanceof WorkerNavigator),o=r?window:"undefined"!=typeof WorkerGlobalScope&&("undefined"!=typeof self&&self instanceof WorkerGlobalScope&&self||"undefined"!=typeof globalThis&&globalThis instanceof WorkerGlobalScope&&globalThis),a=""+o?.location,s=/iPad|iPhone|iPod/.test(navigator.userAgent),c=s&&"undefined"==typeof SharedWorker,d=(()=>{const e=navigator.userAgent.match(/Firefox[/\s](\d+\.\d+)/);return Array.isArray(e)&&e.length>=2?+e[1]:0})(),u=Boolean(r&&window.document.documentMode),l=!!navigator.sendBeacon},1117:(e,t,n)=>{n.d(t,{w:()=>o});var r=n(50);const i={agentIdentifier:"",ee:void 0};class o{constructor(e){try{if("object"!=typeof e)return(0,r.Z)("shared context requires an object as input");this.sharedContext={},Object.assign(this.sharedContext,i),Object.entries(e).forEach((e=>{let[t,n]=e;Object.keys(i).includes(t)&&(this.sharedContext[t]=n)}))}catch(e){(0,r.Z)("An error occured while setting SharedContext",e)}}}},8e3:(e,t,n)=>{n.d(t,{L:()=>u,R:()=>c});var r=n(2177),i=n(1284),o=n(4322),a=n(3325);const s={};function c(e,t){const n={staged:!1,priority:a.p[t]||0};d(e),s[e].get(t)||s[e].set(t,n)}function d(e){e&&(s[e]||(s[e]=new Map))}function u(){let e=arguments.length>0&&void 0!==arguments[0]?arguments[0]:"",t=arguments.length>1&&void 0!==arguments[1]?arguments[1]:"feature";if(d(e),!e||!s[e].get(t))return a(t);s[e].get(t).staged=!0;const n=[...s[e]];function a(t){const n=e?r.ee.get(e):r.ee,a=o.X.handlers;if(n.backlog&&a){var s=n.backlog[t],c=a[t];if(c){for(var d=0;s&&d<s.length;++d)l(s[d],c);(0,i.D)(c,(function(e,t){(0,i.D)(t,(function(t,n){n[0].on(e,n[1])}))}))}delete a[t],n.backlog[t]=null,n.emit("drain-"+t,[])}}n.every((e=>{let[t,n]=e;return n.staged}))&&(n.sort(((e,t)=>e[1].priority-t[1].priority)),n.forEach((e=>{let[t]=e;a(t)})))}function l(e,t){var n=e[1];(0,i.D)(t[n],(function(t,n){var r=e[0];if(n[0]===r){var i=n[1],o=e[3],a=e[2];i.apply(o,a)}}))}},2177:(e,t,n)=>{n.d(t,{ee:()=>d});var r=n(8632),i=n(2210),o=n(1284),a=n(5763),s="nr@context";let c=(0,r.fP)();var d;function u(){}function l(){return new u}function f(){d.aborted=!0,d.backlog={}}c.ee?d=c.ee:(d=function e(t,n){var r={},c={},g={},p=!1;try{p=16===n.length&&(0,a.OP)(n).isolatedBacklog}catch(e){}var h={on:b,addEventListener:b,removeEventListener:y,emit:m,get:A,listeners:w,context:v,buffer:x,abort:f,aborted:!1,isBuffering:D,debugId:n,backlog:p?{}:t&&"object"==typeof t.backlog?t.backlog:{}};return h;function v(e){return e&&e instanceof u?e:e?(0,i.X)(e,s,l):l()}function m(e,n,r,i,o){if(!1!==o&&(o=!0),!d.aborted||i){t&&o&&t.emit(e,n,r);for(var a=v(r),s=w(e),u=s.length,l=0;l<u;l++)s[l].apply(a,n);var f=_()[c[e]];return f&&f.push([h,e,n,a]),a}}function b(e,t){r[e]=w(e).concat(t)}function y(e,t){var n=r[e];if(n)for(var i=0;i<n.length;i++)n[i]===t&&n.splice(i,1)}function w(e){return r[e]||[]}function A(t){return g[t]=g[t]||e(h,t)}function x(e,t){var n=_();h.aborted||(0,o.D)(e,(function(e,r){t=t||"feature",c[r]=t,t in n||(n[t]=[])}))}function D(e){return!!_()[c[e]]}function _(){return h.backlog}}(void 0,"globalEE"),c.ee=d)},5546:(e,t,n)=>{n.d(t,{E:()=>r,p:()=>i});var r=n(2177).ee.get("handle");function i(e,t,n,i,o){o?(o.buffer([e],i),o.emit(e,t,n)):(r.buffer([e],i),r.emit(e,t,n))}},4322:(e,t,n)=>{n.d(t,{X:()=>o});var r=n(5546);o.on=a;var i=o.handlers={};function o(e,t,n,o){a(o||r.E,i,e,t,n)}function a(e,t,n,i,o){o||(o="feature"),e||(e=r.E);var a=t[o]=t[o]||{};(a[n]=a[n]||[]).push([e,i])}},3239:(e,t,n)=>{n.d(t,{bP:()=>s,iz:()=>c,m$:()=>a});var r=n(385);let i=!1,o=!1;try{const e={get passive(){return i=!0,!1},get signal(){return o=!0,!1}};r._A.addEventListener("test",null,e),r._A.removeEventListener("test",null,e)}catch(e){}function a(e,t){return i||o?{capture:!!e,passive:i,signal:t}:!!e}function s(e,t){let n=arguments.length>2&&void 0!==arguments[2]&&arguments[2],r=arguments.length>3?arguments[3]:void 0;window.addEventListener(e,t,a(n,r))}function c(e,t){let n=arguments.length>2&&void 0!==arguments[2]&&arguments[2],r=arguments.length>3?arguments[3]:void 0;document.addEventListener(e,t,a(n,r))}},4402:(e,t,n)=>{n.d(t,{Rl:()=>a,ky:()=>s});var r=n(385);const i="xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx";function o(e,t){return e?15&e[t]:16*Math.random()|0}function a(){const e=r._A?.crypto||r._A?.msCrypto;let t,n=0;return e&&e.getRandomValues&&(t=e.getRandomValues(new Uint8Array(31))),i.split("").map((e=>"x"===e?o(t,++n).toString(16):"y"===e?(3&o()|8).toString(16):e)).join("")}function s(e){const t=r._A?.crypto||r._A?.msCrypto;let n,i=0;t&&t.getRandomValues&&(n=t.getRandomValues(new Uint8Array(31)));const a=[];for(var s=0;s<e;s++)a.push(o(n,++i).toString(16));return a.join("")}},7056:(e,t,n)=>{n.d(t,{Bq:()=>r,Hb:()=>o,oD:()=>i});const r="NRBA",i=144e5,o=18e5},7894:(e,t,n)=>{function r(){return Math.round(performance.now())}n.d(t,{z:()=>r})},50:(e,t,n)=>{function r(e,t){"function"==typeof console.warn&&(console.warn("New Relic: ".concat(e)),t&&console.warn(t))}n.d(t,{Z:()=>r})},2587:(e,t,n)=>{n.d(t,{N:()=>c,T:()=>d});var r=n(2177),i=n(5546),o=n(8e3),a=n(3325);const s={stn:[a.D.sessionTrace],err:[a.D.jserrors,a.D.metrics],ins:[a.D.pageAction],spa:[a.D.spa],sr:[a.D.sessionReplay,a.D.sessionTrace]};function c(e,t){const n=r.ee.get(t);e&&"object"==typeof e&&(Object.entries(e).forEach((e=>{let[t,r]=e;void 0===d[t]&&(s[t]?s[t].forEach((e=>{r?(0,i.p)("feat-"+t,[],void 0,e,n):(0,i.p)("block-"+t,[],void 0,e,n),(0,i.p)("rumresp-"+t,[Boolean(r)],void 0,e,n)})):r&&(0,i.p)("feat-"+t,[],void 0,void 0,n),d[t]=Boolean(r))})),Object.keys(s).forEach((e=>{void 0===d[e]&&(s[e]?.forEach((t=>(0,i.p)("rumresp-"+e,[!1],void 0,t,n))),d[e]=!1)})),(0,o.L)(t,a.D.pageViewEvent))}const d={}},2210:(e,t,n)=>{n.d(t,{X:()=>i});var r=Object.prototype.hasOwnProperty;function i(e,t,n){if(r.call(e,t))return e[t];var i=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:i,writable:!0,enumerable:!1}),i}catch(e){}return e[t]=i,i}},1284:(e,t,n)=>{n.d(t,{D:()=>r});const r=(e,t)=>Object.entries(e||{}).map((e=>{let[n,r]=e;return t(n,r)}))},4351:(e,t,n)=>{n.d(t,{P:()=>o});var r=n(2177);const i=()=>{const e=new WeakSet;return(t,n)=>{if("object"==typeof n&&null!==n){if(e.has(n))return;e.add(n)}return n}};function o(e){try{return JSON.stringify(e,i())}catch(e){try{r.ee.emit("internal-error",[e])}catch(e){}}}},3960:(e,t,n)=>{n.d(t,{K:()=>a,b:()=>o});var r=n(3239);function i(){return"undefined"==typeof document||"complete"===document.readyState}function o(e,t){if(i())return e();(0,r.bP)("load",e,t)}function a(e){if(i())return e();(0,r.iz)("DOMContentLoaded",e)}},8632:(e,t,n)=>{n.d(t,{EZ:()=>d,Qy:()=>c,ce:()=>o,fP:()=>a,gG:()=>u,mF:()=>s});var r=n(7894),i=n(385);const o={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net"};function a(){return i._A.NREUM||(i._A.NREUM={}),void 0===i._A.newrelic&&(i._A.newrelic=i._A.NREUM),i._A.NREUM}function s(){let e=a();return e.o||(e.o={ST:i._A.setTimeout,SI:i._A.setImmediate,CT:i._A.clearTimeout,XHR:i._A.XMLHttpRequest,REQ:i._A.Request,EV:i._A.Event,PR:i._A.Promise,MO:i._A.MutationObserver,FETCH:i._A.fetch}),e}function c(e,t,n){let i=a();const o=i.initializedAgents||{},s=o[e]||{};return Object.keys(s).length||(s.initializedAt={ms:(0,r.z)(),date:new Date}),i.initializedAgents={...o,[e]:{...s,[n]:t}},i}function d(e,t){a()[e]=t}function u(){return function(){let e=a();const t=e.info||{};e.info={beacon:o.beacon,errorBeacon:o.errorBeacon,...t}}(),function(){let e=a();const t=e.init||{};e.init={...t}}(),s(),function(){let e=a();const t=e.loader_config||{};e.loader_config={...t}}(),a()}},7956:(e,t,n)=>{n.d(t,{N:()=>i});var r=n(3239);function i(e){let t=arguments.length>1&&void 0!==arguments[1]&&arguments[1],n=arguments.length>2?arguments[2]:void 0,i=arguments.length>3?arguments[3]:void 0;return void(0,r.iz)("visibilitychange",(function(){if(t)return void("hidden"==document.visibilityState&&e());e(document.visibilityState)}),n,i)}},3081:(e,t,n)=>{n.d(t,{gF:()=>o,mY:()=>i,t9:()=>r,vz:()=>s,xS:()=>a});const r=n(3325).D.metrics,i="sm",o="cm",a="storeSupportabilityMetrics",s="storeEventMetrics"},7633:(e,t,n)=>{n.d(t,{Dz:()=>i,OJ:()=>a,qw:()=>o,t9:()=>r});const r=n(3325).D.pageViewEvent,i="firstbyte",o="domcontent",a="windowload"},9251:(e,t,n)=>{n.d(t,{t:()=>r});const r=n(3325).D.pageViewTiming},5938:(e,t,n)=>{n.d(t,{W:()=>o});var r=n(5763),i=n(2177);class o{constructor(e,t,n){this.agentIdentifier=e,this.aggregator=t,this.ee=i.ee.get(e,(0,r.OP)(this.agentIdentifier).isolatedBacklog),this.featureName=n,this.blocked=!1}}},9144:(e,t,n)=>{n.d(t,{j:()=>v});var r=n(3325),i=n(5763),o=n(5546),a=n(2177),s=n(7894),c=n(8e3),d=n(3960),u=n(385),l=n(50),f=n(3081),g=n(8632);function p(){const e=(0,g.gG)();["setErrorHandler","finished","addToTrace","inlineHit","addRelease","addPageAction","setCurrentRouteName","setPageViewName","setCustomAttribute","interaction","noticeError","setUserId"].forEach((t=>{e[t]=function(){for(var n=arguments.length,r=new Array(n),i=0;i<n;i++)r[i]=arguments[i];return function(t){for(var n=arguments.length,r=new Array(n>1?n-1:0),i=1;i<n;i++)r[i-1]=arguments[i];let o=[];return Object.values(e.initializedAgents).forEach((e=>{e.exposed&&e.api[t]&&o.push(e.api[t](...r))})),o.length>1?o:o[0]}(t,...r)}}))}var h=n(2587);function v(e){let t=arguments.length>1&&void 0!==arguments[1]?arguments[1]:{},v=arguments.length>2?arguments[2]:void 0,m=arguments.length>3?arguments[3]:void 0,{init:b,info:y,loader_config:w,runtime:A={loaderType:v},exposed:x=!0}=t;const D=(0,g.gG)();y||(b=D.init,y=D.info,w=D.loader_config),(0,i.Dg)(e,b||{}),(0,i.GE)(e,w||{}),(0,i.sU)(e,A),y.jsAttributes??={},u.v6&&(y.jsAttributes.isWorker=!0),(0,i.CX)(e,y),p();const _=function(e,t){t||(0,c.R)(e,"api");const g={};var p=a.ee.get(e),h=p.get("tracer"),v="api-",m=v+"ixn-";function b(t,n,r,o){const a=(0,i.C5)(e);return null===n?delete a.jsAttributes[t]:(0,i.CX)(e,{...a,jsAttributes:{...a.jsAttributes,[t]:n}}),A(v,r,!0,o||null===n?"session":void 0)(t,n)}function y(){}["setErrorHandler","finished","addToTrace","inlineHit","addRelease"].forEach((e=>g[e]=A(v,e,!0,"api"))),g.addPageAction=A(v,"addPageAction",!0,r.D.pageAction),g.setCurrentRouteName=A(v,"routeName",!0,r.D.spa),g.setPageViewName=function(t,n){if("string"==typeof t)return"/"!==t.charAt(0)&&(t="/"+t),(0,i.OP)(e).customTransaction=(n||"http://custom.transaction")+t,A(v,"setPageViewName",!0)()},g.setCustomAttribute=function(e,t){let n=arguments.length>2&&void 0!==arguments[2]&&arguments[2];if("string"==typeof e){if(["string","number"].includes(typeof t)||null===t)return b(e,t,"setCustomAttribute",n);(0,l.Z)("Failed to execute setCustomAttribute.\nNon-null value must be a string or number type, but a type of <".concat(typeof t,"> was provided."))}else(0,l.Z)("Failed to execute setCustomAttribute.\nName must be a string type, but a type of <".concat(typeof e,"> was provided."))},g.setUserId=function(e){if("string"==typeof e||null===e)return b("enduser.id",e,"setUserId",!0);(0,l.Z)("Failed to execute setUserId.\nNon-null value must be a string type, but a type of <".concat(typeof e,"> was provided."))},g.interaction=function(){return(new y).get()};var w=y.prototype={createTracer:function(e,t){var n={},i=this,a="function"==typeof t;return(0,o.p)(m+"tracer",[(0,s.z)(),e,n],i,r.D.spa,p),function(){if(h.emit((a?"":"no-")+"fn-start",[(0,s.z)(),i,a],n),a)try{return t.apply(this,arguments)}catch(e){throw h.emit("fn-err",[arguments,this,"string"==typeof e?new Error(e):e],n),e}finally{h.emit("fn-end",[(0,s.z)()],n)}}}};function A(e,t,n,i){return function(){return(0,o.p)(f.xS,["API/"+t+"/called"],void 0,r.D.metrics,p),i&&(0,o.p)(e+t,[(0,s.z)(),...arguments],n?null:this,i,p),n?void 0:this}}function x(){n.e(439).then(n.bind(n,7438)).then((t=>{let{setAPI:n}=t;n(e),(0,c.L)(e,"api")})).catch((()=>(0,l.Z)("Downloading runtime APIs failed...")))}return["actionText","setName","setAttribute","save","ignore","onEnd","getContext","end","get"].forEach((e=>{w[e]=A(m,e,void 0,r.D.spa)})),g.noticeError=function(e,t){"string"==typeof e&&(e=new Error(e)),(0,o.p)(f.xS,["API/noticeError/called"],void 0,r.D.metrics,p),(0,o.p)("err",[e,(0,s.z)(),!1,t],void 0,r.D.jserrors,p)},u.il?(0,d.b)((()=>x()),!0):x(),g}(e,m);return(0,g.Qy)(e,_,"api"),(0,g.Qy)(e,x,"exposed"),(0,g.EZ)("activatedFeatures",h.T),_}},3325:(e,t,n)=>{n.d(t,{D:()=>r,p:()=>i});const r={ajax:"ajax",jserrors:"jserrors",metrics:"metrics",pageAction:"page_action",pageViewEvent:"page_view_event",pageViewTiming:"page_view_timing",sessionReplay:"session_replay",sessionTrace:"session_trace",spa:"spa"},i={[r.pageViewEvent]:1,[r.pageViewTiming]:2,[r.metrics]:3,[r.jserrors]:4,[r.ajax]:5,[r.sessionTrace]:6,[r.pageAction]:7,[r.spa]:8,[r.sessionReplay]:9}}},r={};function i(e){var t=r[e];if(void 0!==t)return t.exports;var o=r[e]={exports:{}};return n[e](o,o.exports,i),o.exports}i.m=n,i.d=(e,t)=>{for(var n in t)i.o(t,n)&&!i.o(e,n)&&Object.defineProperty(e,n,{enumerable:!0,get:t[n]})},i.f={},i.e=e=>Promise.all(Object.keys(i.f).reduce(((t,n)=>(i.f[n](e,t),t)),[])),i.u=e=>(({78:"page_action-aggregate",147:"metrics-aggregate",242:"session-manager",317:"jserrors-aggregate",348:"page_view_timing-aggregate",412:"lazy-feature-loader",439:"async-api",538:"recorder",590:"session_replay-aggregate",675:"compressor",733:"session_trace-aggregate",786:"page_view_event-aggregate",873:"spa-aggregate",898:"ajax-aggregate"}[e]||e)+"."+{78:"ac76d497",147:"3dc53903",148:"1a20d5fe",242:"2a64278a",317:"49e41428",348:"bd6de33a",412:"2f55ce66",439:"30bd804e",538:"1b18459f",590:"cf0efb30",675:"ae9f91a8",733:"83105561",786:"06482edd",860:"03a8b7a5",873:"e6b09d52",898:"998ef92b"}[e]+"-1.236.0.min.js"),i.o=(e,t)=>Object.prototype.hasOwnProperty.call(e,t),e={},t="NRBA:",i.l=(n,r,o,a)=>{if(e[n])e[n].push(r);else{var s,c;if(void 0!==o)for(var d=document.getElementsByTagName("script"),u=0;u<d.length;u++){var l=d[u];if(l.getAttribute("src")==n||l.getAttribute("data-webpack")==t+o){s=l;break}}s||(c=!0,(s=document.createElement("script")).charset="utf-8",s.timeout=120,i.nc&&s.setAttribute("nonce",i.nc),s.setAttribute("data-webpack",t+o),s.src=n),e[n]=[r];var f=(t,r)=>{s.onerror=s.onload=null,clearTimeout(g);var i=e[n];if(delete e[n],s.parentNode&&s.parentNode.removeChild(s),i&&i.forEach((e=>e(r))),t)return t(r)},g=setTimeout(f.bind(null,void 0,{type:"timeout",target:s}),12e4);s.onerror=f.bind(null,s.onerror),s.onload=f.bind(null,s.onload),c&&document.head.appendChild(s)}},i.r=e=>{"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},i.j=6,i.p="https://js-agent.newrelic.com/",(()=>{var e={6:0,352:0};i.f.j=(t,n)=>{var r=i.o(e,t)?e[t]:void 0;if(0!==r)if(r)n.push(r[2]);else{var o=new Promise(((n,i)=>r=e[t]=[n,i]));n.push(r[2]=o);var a=i.p+i.u(t),s=new Error;i.l(a,(n=>{if(i.o(e,t)&&(0!==(r=e[t])&&(e[t]=void 0),r)){var o=n&&("load"===n.type?"missing":n.type),a=n&&n.target&&n.target.src;s.message="Loading chunk "+t+" failed.\n("+o+": "+a+")",s.name="ChunkLoadError",s.type=o,s.request=a,r[1](s)}}),"chunk-"+t,t)}};var t=(t,n)=>{var r,o,[a,s,c]=n,d=0;if(a.some((t=>0!==e[t]))){for(r in s)i.o(s,r)&&(i.m[r]=s[r]);if(c)c(i)}for(t&&t(n);d<a.length;d++)o=a[d],i.o(e,o)&&e[o]&&e[o][0](),e[o]=0},n=window.webpackChunkNRBA=window.webpackChunkNRBA||[];n.forEach(t.bind(null,0)),n.push=t.bind(null,n.push.bind(n))})();var o={};(()=>{i.r(o);var e=i(3325),t=i(5763);const n=Object.values(e.D);function r(e){const r={};return n.forEach((n=>{r[n]=function(e,n){return!1!==(0,t.Mt)(n,"".concat(e,".enabled"))}(n,e)})),r}var a=i(9144);var s=i(5546),c=i(385),d=i(8e3),u=i(5938),l=i(3960),f=i(50);class g extends u.W{constructor(e,t,n){let r=!(arguments.length>3&&void 0!==arguments[3])||arguments[3];super(e,t,n),this.auto=r,this.abortHandler,this.featAggregate,this.onAggregateImported,r&&(0,d.R)(e,n)}importAggregator(){let e=arguments.length>0&&void 0!==arguments[0]?arguments[0]:{};if(this.featAggregate||!this.auto)return;const n=c.il&&!0===(0,t.Mt)(this.agentIdentifier,"privacy.cookies_enabled");let r;this.onAggregateImported=new Promise((e=>{r=e}));const o=async()=>{let t;try{if(n){const{setupAgentSession:e}=await Promise.all([i.e(860),i.e(242)]).then(i.bind(i,3228));t=e(this.agentIdentifier)}}catch(e){(0,f.Z)("A problem occurred when starting up session manager. This page will not start or extend any session.",e)}try{if(!this.shouldImportAgg(this.featureName,t))return void(0,d.L)(this.agentIdentifier,this.featureName);const{lazyFeatureLoader:n}=await i.e(412).then(i.bind(i,8582)),{Aggregate:o}=await n(this.featureName,"aggregate");this.featAggregate=new o(this.agentIdentifier,this.aggregator,e),r(!0)}catch(e){(0,f.Z)("Downloading and initializing ".concat(this.featureName," failed..."),e),this.abortHandler?.(),r(!1)}};c.il?(0,l.b)((()=>o()),!0):o()}shouldImportAgg(n,r){return n!==e.D.sessionReplay||!1!==(0,t.Mt)(this.agentIdentifier,"session_trace.enabled")&&(!!r?.isNew||!!r?.state.sessionReplay)}}var p=i(7633),h=i(7894);class v extends g{static featureName=p.t9;constructor(n,r){let i=!(arguments.length>2&&void 0!==arguments[2])||arguments[2];if(super(n,r,p.t9,i),("undefined"==typeof PerformanceNavigationTiming||c.Tt)&&"undefined"!=typeof PerformanceTiming){const r=(0,t.OP)(n);r[p.Dz]=Math.max(Date.now()-r.offset,0),(0,l.K)((()=>r[p.qw]=Math.max((0,h.z)()-r[p.Dz],0))),(0,l.b)((()=>{const t=(0,h.z)();r[p.OJ]=Math.max(t-r[p.Dz],0),(0,s.p)("timing",["load",t],void 0,e.D.pageViewTiming,this.ee)}))}this.importAggregator()}}var m=i(1117),b=i(1284);class y extends m.w{constructor(e){super(e),this.aggregatedData={}}store(e,t,n,r,i){var o=this.getBucket(e,t,n,i);return o.metrics=function(e,t){t||(t={count:0});return t.count+=1,(0,b.D)(e,(function(e,n){t[e]=w(n,t[e])})),t}(r,o.metrics),o}merge(e,t,n,r,i){var o=this.getBucket(e,t,r,i);if(o.metrics){var a=o.metrics;a.count+=n.count,(0,b.D)(n,(function(e,t){if("count"!==e){var r=a[e],i=n[e];i&&!i.c?a[e]=w(i.t,r):a[e]=function(e,t){if(!t)return e;t.c||(t=A(t.t));return t.min=Math.min(e.min,t.min),t.max=Math.max(e.max,t.max),t.t+=e.t,t.sos+=e.sos,t.c+=e.c,t}(i,a[e])}}))}else o.metrics=n}storeMetric(e,t,n,r){var i=this.getBucket(e,t,n);return i.stats=w(r,i.stats),i}getBucket(e,t,n,r){this.aggregatedData[e]||(this.aggregatedData[e]={});var i=this.aggregatedData[e][t];return i||(i=this.aggregatedData[e][t]={params:n||{}},r&&(i.custom=r)),i}get(e,t){return t?this.aggregatedData[e]&&this.aggregatedData[e][t]:this.aggregatedData[e]}take(e){for(var t={},n="",r=!1,i=0;i<e.length;i++)t[n=e[i]]=x(this.aggregatedData[n]),t[n].length&&(r=!0),delete this.aggregatedData[n];return r?t:null}}function w(e,t){return null==e?function(e){e?e.c++:e={c:1};return e}(t):t?(t.c||(t=A(t.t)),t.c+=1,t.t+=e,t.sos+=e*e,e>t.max&&(t.max=e),e<t.min&&(t.min=e),t):{t:e}}function A(e){return{t:e,min:e,max:e,sos:e*e,c:1}}function x(e){return"object"!=typeof e?[]:(0,b.D)(e,D)}function D(e,t){return t}var _=i(8632),j=i(4402),E=i(4351);var k=i(7956),T=i(3239),I=i(9251);class N extends g{static featureName=I.t;constructor(e,n){let r=!(arguments.length>2&&void 0!==arguments[2])||arguments[2];super(e,n,I.t,r),c.il&&((0,t.OP)(e).initHidden=Boolean("hidden"===document.visibilityState),(0,k.N)((()=>(0,s.p)("docHidden",[(0,h.z)()],void 0,I.t,this.ee)),!0),(0,T.bP)("pagehide",(()=>(0,s.p)("winPagehide",[(0,h.z)()],void 0,I.t,this.ee))),this.importAggregator())}}var P=i(3081);class S extends g{static featureName=P.t9;constructor(e,t){let n=!(arguments.length>2&&void 0!==arguments[2])||arguments[2];super(e,t,P.t9,n),this.importAggregator()}}new class{constructor(e){let t=arguments.length>1&&void 0!==arguments[1]?arguments[1]:(0,j.ky)(16);c._A?(this.agentIdentifier=t,this.sharedAggregator=new y({agentIdentifier:this.agentIdentifier}),this.features={},this.desiredFeatures=new Set(e.features||[]),this.desiredFeatures.add(v),Object.assign(this,(0,a.j)(this.agentIdentifier,e,e.loaderType||"agent")),this.start()):(0,f.Z)("Failed to initial the agent. Could not determine the runtime environment.")}get config(){return{info:(0,t.C5)(this.agentIdentifier),init:(0,t.P_)(this.agentIdentifier),loader_config:(0,t.DL)(this.agentIdentifier),runtime:(0,t.OP)(this.agentIdentifier)}}start(){const t="features";try{const n=r(this.agentIdentifier),i=[...this.desiredFeatures];i.sort(((t,n)=>e.p[t.featureName]-e.p[n.featureName])),i.forEach((t=>{if(n[t.featureName]||t.featureName===e.D.pageViewEvent){const r=function(t){switch(t){case e.D.ajax:return[e.D.jserrors];case e.D.sessionTrace:return[e.D.ajax,e.D.pageViewEvent];case e.D.sessionReplay:return[e.D.sessionTrace];case e.D.pageViewTiming:return[e.D.pageViewEvent];default:return[]}}(t.featureName);r.every((e=>n[e]))||(0,f.Z)("".concat(t.featureName," is enabled but one or more dependent features has been disabled (").concat((0,E.P)(r),"). This may cause unintended consequences or missing data...")),this.features[t.featureName]=new t(this.agentIdentifier,this.sharedAggregator)}})),(0,_.Qy)(this.agentIdentifier,this.features,t)}catch(e){(0,f.Z)("Failed to initialize all enabled instrument classes (agent aborted) -",e);for(const e in this.features)this.features[e].abortHandler?.();const n=(0,_.fP)();return delete n.initializedAgents[this.agentIdentifier]?.api,delete n.initializedAgents[this.agentIdentifier]?.[t],delete this.sharedAggregator,n.ee?.abort(),delete n.ee?.get(this.agentIdentifier),!1}}}({features:[v,N,S],loaderType:"lite"})})(),window.NRBA=o})();</script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="cache-control" content="no-cache" />
+        <meta name="gpsid" content="11129398" />
+        <link rel="icon" href="https://www.vancouverislandfreedaily.com/wp-content/themes/BlackPress/assets/images/icons/favicon.ico" type="image/x-icon">
+        <link rel="apple-touch-icon" sizes="144x144" href="https://www.vancouverislandfreedaily.com/wp-content/themes/BlackPress/assets/images/icons/apple-touch-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="https://www.vancouverislandfreedaily.com/wp-content/themes/BlackPress/assets/images/icons/apple-touch-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="https://www.vancouverislandfreedaily.com/wp-content/themes/BlackPress/assets/images/icons/apple-touch-icon-72x72.png">
+        <link rel="apple-touch-icon" href="https://www.vancouverislandfreedaily.com/wp-content/themes/BlackPress/assets/images/icons/apple-touch-icon.png">
+		<link rel="manifest" href="https://www.vancouverislandfreedaily.com/wp-content/themes/BlackPress/webmanifest.php" />
+                      
+        <!-- Begin: Google Tag Manager -->
+            <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+            'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+            })(window,document,'script','dataLayer','GTM-PLCB25H');</script>
+            
+            <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+            'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+            })(window,document,'script','dataLayer','GTM-56M65DZ');</script>
+            <!-- End: Google Tag Manager -->
+            <!--
+<PageMap>
+	<DataObject type="thumbnail">
+		<Attribute name="src" value="https://www.vancouverislandfreedaily.com/wp-content/uploads/2018/03/11129398_web1_180320-PNR-pagesbooks-300x215.jpg"/>
+		<Attribute name="width" value="300"/>
+		<Attribute name="height" value="200"/>
+	</DataObject>
+</PageMap>
+-->
+<!-- Search Engine Optimization by Rank Math PRO - https://rankmath.com/ -->
+<title>Pages Books in Brentwood Bay falls on hard times - Vancouver Island Free Daily</title>
+<meta name="description" content="Store has been closed for several weeks, GoFundMe started by a fan"/>
+<meta name="robots" content="index, follow, max-snippet:-1, max-video-preview:-1, max-image-preview:large"/>
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Pages Books in Brentwood Bay falls on hard times - Vancouver Island Free Daily" />
+<meta property="og:description" content="Store has been closed for several weeks, GoFundMe started by a fan" />
+<meta property="og:site_name" content="Vancouver Island Free Daily" />
+<meta property="article:section" content="Business" />
+<meta property="og:image" content="https://www.vancouverislandfreedaily.com/wp-content/uploads/2018/03/11129398_web1_180320-PNR-pagesbooks.jpg" />
+<meta property="og:image:secure_url" content="https://www.vancouverislandfreedaily.com/wp-content/uploads/2018/03/11129398_web1_180320-PNR-pagesbooks.jpg" />
+<meta property="og:image:width" content="974" />
+<meta property="og:image:height" content="698" />
+<meta property="og:image:alt" content="&lt;p&gt;A GoFundMe has been started for Pages Used Books in Brentwood Bay.&lt;/p&gt;" />
+<meta property="og:image:type" content="image/jpeg" />
+<meta property="article:published_time" content="2018-03-20T17:30:00-07:00" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Pages Books in Brentwood Bay falls on hard times - Vancouver Island Free Daily" />
+<meta name="twitter:description" content="Store has been closed for several weeks, GoFundMe started by a fan" />
+<meta name="twitter:image" content="https://www.vancouverislandfreedaily.com/wp-content/uploads/2018/03/11129398_web1_180320-PNR-pagesbooks.jpg" />
+<meta name="twitter:label1" content="Written by" />
+<meta name="twitter:data1" content="Hugo Wong" />
+<meta name="twitter:label2" content="Time to read" />
+<meta name="twitter:data2" content="1 minute" />
+<script type="application/ld+json" class="rank-math-schema-pro">{"@context":"https://schema.org","@graph":[{"@type":["Person","Organization"],"@id":"https://www.vancouverislandfreedaily.com/#person","name":"Vancouver Island Free Daily"},{"@type":"WebSite","@id":"https://www.vancouverislandfreedaily.com/#website","url":"https://www.vancouverislandfreedaily.com","name":"Vancouver Island Free Daily","publisher":{"@id":"https://www.vancouverislandfreedaily.com/#person"},"inLanguage":"en-US"},{"@type":"ImageObject","@id":"https://www.vancouverislandfreedaily.com/wp-content/uploads/2018/03/11129398_web1_180320-PNR-pagesbooks.jpg","url":"https://www.vancouverislandfreedaily.com/wp-content/uploads/2018/03/11129398_web1_180320-PNR-pagesbooks.jpg","width":"974","height":"698","caption":"<p>A GoFundMe has been started for Pages Used Books in Brentwood Bay.</p>","inLanguage":"en-US"},{"@type":"WebPage","@id":"#webpage","url":"","name":"Pages Books in Brentwood Bay falls on hard times - Vancouver Island Free Daily","datePublished":"2018-03-20T17:30:00-07:00","dateModified":"2018-03-20T17:30:00-07:00","isPartOf":{"@id":"https://www.vancouverislandfreedaily.com/#website"},"primaryImageOfPage":{"@id":"https://www.vancouverislandfreedaily.com/wp-content/uploads/2018/03/11129398_web1_180320-PNR-pagesbooks.jpg"},"inLanguage":"en-US"},{"@type":"Person","@id":"https://www.vancouverislandfreedaily.com/author/hugo-wong/","name":"Hugo Wong","url":"https://www.vancouverislandfreedaily.com/author/hugo-wong/","image":{"@type":"ImageObject","@id":"https://secure.gravatar.com/avatar/5ef74d844f758f7d0ea74727cbe7b1be?s=96&amp;d=mm&amp;r=g","url":"https://secure.gravatar.com/avatar/5ef74d844f758f7d0ea74727cbe7b1be?s=96&amp;d=mm&amp;r=g","caption":"Hugo Wong","inLanguage":"en-US"}},{"@type":"BlogPosting","headline":"Pages Books in Brentwood Bay falls on hard times - Vancouver Island Free Daily","datePublished":"2018-03-20T17:30:00-07:00","dateModified":"2018-03-20T17:30:00-07:00","articleSection":"Business, Home2, Local Business, News","author":{"@id":"https://www.vancouverislandfreedaily.com/author/hugo-wong/","name":"Hugo Wong"},"publisher":{"@id":"https://www.vancouverislandfreedaily.com/#person"},"description":"Store has been closed for several weeks, GoFundMe started by a fan","name":"Pages Books in Brentwood Bay falls on hard times - Vancouver Island Free Daily","@id":"#richSnippet","isPartOf":{"@id":"#webpage"},"image":{"@id":"https://www.vancouverislandfreedaily.com/wp-content/uploads/2018/03/11129398_web1_180320-PNR-pagesbooks.jpg"},"inLanguage":"en-US","mainEntityOfPage":{"@id":"#webpage"}}]}</script>
+<!-- /Rank Math WordPress SEO plugin -->
+
+<link rel='dns-prefetch' href='//ajax.googleapis.com' />
+<link rel='dns-prefetch' href='//content.jwplatform.com' />
+<link rel='dns-prefetch' href='//cdnjs.cloudflare.com' />
+<link rel='stylesheet' id='wp-block-library-css' href='https://www.vancouverislandfreedaily.com/wp-includes/css/dist/block-library/style.min.css?ver=6.2.2' type='text/css' media='all' />
+<link rel='stylesheet' id='classic-theme-styles-css' href='https://www.vancouverislandfreedaily.com/wp-includes/css/classic-themes.min.css?ver=6.2.2' type='text/css' media='all' />
+<style id='global-styles-inline-css' type='text/css'>
+body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--duotone--dark-grayscale: url('#wp-duotone-dark-grayscale');--wp--preset--duotone--grayscale: url('#wp-duotone-grayscale');--wp--preset--duotone--purple-yellow: url('#wp-duotone-purple-yellow');--wp--preset--duotone--blue-red: url('#wp-duotone-blue-red');--wp--preset--duotone--midnight: url('#wp-duotone-midnight');--wp--preset--duotone--magenta-yellow: url('#wp-duotone-magenta-yellow');--wp--preset--duotone--purple-green: url('#wp-duotone-purple-green');--wp--preset--duotone--blue-orange: url('#wp-duotone-blue-orange');--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap: 0.5em;}body .is-layout-flow > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-flow > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-flow > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-constrained > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-constrained > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width: var(--wp--style--global--content-size);margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignwide{max-width: var(--wp--style--global--wide-size);}body .is-layout-flex{display: flex;}body .is-layout-flex{flex-wrap: wrap;align-items: center;}body .is-layout-flex > *{margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+.wp-block-navigation a:where(:not(.wp-element-button)){color: inherit;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}
+.wp-block-pullquote{font-size: 1.5em;line-height: 1.6;}
+</style>
+<link rel='stylesheet' id='slick-css' href='//cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css?ver=1.9.0' type='text/css' media='all' />
+<link rel='stylesheet' id='slick-theme-css' href='//cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css?ver=1.9.0' type='text/css' media='all' />
+<link rel='stylesheet' id='main-stylesheet-css' href='https://www.vancouverislandfreedaily.com/wp-content/themes/BlackPress/dest/css/foundation.min.css?ver=2.38.03' type='text/css' media='all' />
+<link rel='stylesheet' id='featherlight-css' href='https://www.vancouverislandfreedaily.com/wp-content/themes/BlackPress/assets/components/featherlight/featherlight.css?ver=1.6.1' type='text/css' media='all' />
+<script type='text/javascript' src='//ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js?ver=2.1.0' id='jquery-js'></script>
+<link rel="https://api.w.org/" href="https://www.vancouverislandfreedaily.com/wp-json/" /><link rel="alternate" type="application/json" href="https://www.vancouverislandfreedaily.com/wp-json/wp/v2/posts/11304" /><link rel="alternate" type="application/json+oembed" href="https://www.vancouverislandfreedaily.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.vancouverislandfreedaily.com%2Fbusiness%2Fpages-books-in-brentwood-bay-falls-on-hard-times%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://www.vancouverislandfreedaily.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.vancouverislandfreedaily.com%2Fbusiness%2Fpages-books-in-brentwood-bay-falls-on-hard-times%2F&#038;format=xml" />
+    <!-- Start Blockthrough Script -->
+    <script type="text/javascript" async src="https://btloader.com/tag?o=5745252695015424&upapi=true"></script>
+    <!-- End Blockthrough Script -->
+        <style>
+            /* padding between story cards */
+            .dsgc-ns .gUKujj {
+                padding: 0 0.625rem;
+            }
+            .community-partner-widget {
+                padding: 0 0.625rem;
+            }
+        </style>
+    
+  <!-- Start DoubleClick for Publishers -->
+  <script type='text/javascript'>
+    var googletag = googletag || {};
+    googletag.cmd = googletag.cmd || [];
+    (function() {
+      var gads = document.createElement('script');
+      gads.async = true;
+      gads.type = 'text/javascript';
+      var useSSL = 'https:' == document.location.protocol;
+      gads.src = (useSSL ? 'https:' : 'http:') +
+        '//www.googletagservices.com/tag/js/gpt.js';
+      var node = document.getElementsByTagName('script')[0];
+      node.parentNode.insertBefore(gads, node);
+    })();
+  </script>
+
+  <script type='text/javascript'>
+    var gptAdSlots = [];
+    var gptRefreshSlots = [];
+    googletag.cmd.push(function() {
+      var mappingHorizontal = googletag.sizeMapping().
+        addSize([1024, 0],[[970, 90],[728, 90]]).
+        addSize([768, 0],[[728, 90], [320, 50]]).
+        addSize([320, 0],[[300, 250]]).
+        addSize([0, 0],[[320, 50], [300, 50], [300, 250]]).
+        build();
+      var mappingVertical = googletag.sizeMapping().
+        addSize([1024, 0],[[300, 250]]).
+        addSize([600, 0],[[300, 250]]).
+        addSize([400, 0],[300, 250]).
+        addSize([0, 0],[[300, 50], [300, 250]]).
+        build(); 
+      var mappingBillboard = googletag.sizeMapping().
+        addSize([1024, 0],[[970,250]]).
+        addSize([600, 0],[320,50]).
+        addSize([320, 0], [320, 50]).
+        addSize([0, 0],[]).
+        build();   
+      var mappingPromo = googletag.sizeMapping().
+        addSize([1024, 0],[[970,30],[970,90],[728,90]]).
+        addSize([600, 0],[320, 50]).
+        addSize([320, 0], [320, 50]).
+        addSize([0, 0],[]).
+        build();   
+      var mappingMobileOnly = googletag.sizeMapping().
+        addSize([0, 0],[[320, 50],[300, 50],[1, 1]]).
+        addSize([320, 0], [[320, 50],[300, 50],[1, 1]]).
+        addSize([1024, 0],[]).
+        addSize([600, 0],[]).
+        build();   
+      var mappingMobileFiller = googletag.sizeMapping().
+        addSize([0, 0],[[320, 50],[300, 50],[300, 250],[1, 1]]).
+        addSize([320, 0], [[320, 50],[300, 50],[300, 250],[1, 1]]).
+        addSize([1024, 0],[]).
+        addSize([600, 0],[]).
+        build();   
+      var mappingMobileRectangle = googletag.sizeMapping().
+        addSize([0, 0],[[300, 250]]).
+        addSize([320, 0], [[300, 250]]).
+        addSize([1024, 0],[]).
+        addSize([600, 0],[]).
+        build();   
+      var mappingObitSidebar = googletag.sizeMapping().
+        addSize([1024, 0],[[300, 600]]).
+        addSize([600, 0],[[300, 250]]).
+        addSize([400, 0],[300, 250]).
+        addSize([0, 0],[[300, 250]]).
+        build(); 
+
+      gptAdSlots[0] = googletag.defineSlot('/22692889424/adunit0', [[320, 50],[970, 30],[728,90]], 'div-gpt-0').defineSizeMapping(mappingPromo).addService(googletag.pubads());
+      gptAdSlots[1] = googletag.defineSlot('/22692889424/adunit1', [[970, 250],[300,250]], 'div-gpt-1').defineSizeMapping(mappingBillboard).addService(googletag.pubads());
+      gptAdSlots[2] = googletag.defineSlot('/22692889424/adunit2', [[300, 250]], 'div-gpt-2').addService(googletag.pubads());
+      gptAdSlots[3] = googletag.defineSlot('/22692889424/adunit3', [[970, 90],[728, 90],[320, 50]], 'div-gpt-3').defineSizeMapping(mappingHorizontal).addService(googletag.pubads());
+      gptAdSlots[4] = googletag.defineSlot('/22692889424/adunit4', [[300, 600],[300, 250]], 'div-gpt-4').defineSizeMapping(mappingVertical).addService(googletag.pubads());
+      gptAdSlots[5] = googletag.defineSlot('/22692889424/adunit5', [[970, 90],[728, 90],[320, 50]], 'div-gpt-5').defineSizeMapping(mappingHorizontal).addService(googletag.pubads());
+      gptAdSlots[6] = googletag.defineSlot('/22692889424/adunit6', [[300, 600],[300, 250]], 'div-gpt-6').defineSizeMapping(mappingVertical).addService(googletag.pubads());
+      //gptAdSlots[7] = googletag.defineSlot('/22692889424/adunit7', [[970, 90],[728, 90],[320, 50]], 'div-gpt-7').defineSizeMapping(mappingHorizontal).addService(googletag.pubads());
+      gptAdSlots[8] = googletag.defineSlot('/22692889424/adunit8', [[300, 600],[300, 250]], 'div-gpt-8').defineSizeMapping(mappingVertical).addService(googletag.pubads());
+      //gptAdSlots[9] = googletag.defineSlot('/22692889424/adunit9', [[970, 90],[728, 90],[320, 50]], 'div-gpt-9').defineSizeMapping(mappingHorizontal).addService(googletag.pubads());
+      gptAdSlots[10] = googletag.defineSlot('/22692889424/adunit10', [[300, 600],[300,250]], 'div-gpt-10').defineSizeMapping(mappingVertical).addService(googletag.pubads());
+      //gptAdSlots[11] = googletag.defineSlot('/22692889424/adunit11', [[970, 90],[728, 90],[320, 50]], 'div-gpt-11').defineSizeMapping(mappingHorizontal).addService(googletag.pubads());
+      gptAdSlots[12] = googletag.defineSlot('/22692889424/adunit12', [[300, 600],[300, 250]], 'div-gpt-12').defineSizeMapping(mappingVertical).addService(googletag.pubads());
+      //gptAdSlots[13] = googletag.defineSlot('/22692889424/adunit13', [[970, 90],[728, 90],[320, 50]], 'div-gpt-13').defineSizeMapping(mappingHorizontal).addService(googletag.pubads());
+      gptAdSlots[14] = googletag.defineSlot('/22692889424/adunit14', [300, 250], 'div-gpt-14').addService(googletag.pubads());
+      gptAdSlots[15] = googletag.defineSlot('/22692889424/adunit15', [[970, 90],[728, 90],[320, 50]], 'div-gpt-15').defineSizeMapping(mappingHorizontal).addService(googletag.pubads());
+      gptAdSlots[17] = googletag.defineSlot('/22692889424/adunit17', [[320, 50]], 'div-gpt-17').defineSizeMapping(mappingMobileOnly).addService(googletag.pubads());
+      gptAdSlots[19] = googletag.defineSlot('/22692889424/adunit19', [300, 250], 'div-gpt-19').addService(googletag.pubads());
+      gptAdSlots[20] = googletag.defineSlot('/22692889424/adunit20', [[300, 250]], 'div-gpt-20').addService(googletag.pubads());
+      gptAdSlots[22] = googletag.defineSlot('/22692889424/adunit22', [300, 250], 'div-gpt-22').addService(googletag.pubads());
+      gptAdSlots[23] = googletag.defineSlot('/22692889424/adunit23', [[970, 90],[728, 90],[320, 50]], 'div-gpt-23').defineSizeMapping(mappingHorizontal).addService(googletag.pubads());
+      gptAdSlots[24] = googletag.defineSlot('/22692889424/adunit24', [[320, 50],[970, 30],[728,90]], 'div-gpt-24').defineSizeMapping(mappingPromo).addService(googletag.pubads());
+      gptAdSlots[26] = googletag.defineSlot('/22692889424/adunit26', [[300, 600],[300,250]], 'div-gpt-26').defineSizeMapping(mappingVertical).addService(googletag.pubads());
+      gptAdSlots[30] = googletag.defineSlot('/22692889424/obit0', [[970, 30],[970, 90], [728, 90],[320, 50]], 'div-gpt-30').defineSizeMapping(mappingPromo).addService(googletag.pubads());
+      gptAdSlots[32] = googletag.defineSlot('/22692889424/obit2', [[300, 600],[300, 250]], 'div-gpt-32').defineSizeMapping(mappingObitSidebar).addService(googletag.pubads());
+      gptAdSlots[33] = googletag.defineSlot('/22692889424/obit3', [[300, 600],[300, 250]], 'div-gpt-33').defineSizeMapping(mappingVertical).addService(googletag.pubads());
+      gptAdSlots[34] = googletag.defineSlot('/22692889424/obit4', [[300, 600],[300, 250]], 'div-gpt-34').defineSizeMapping(mappingVertical).addService(googletag.pubads());
+      gptAdSlots[40] = googletag.defineSlot('/22692889424/impress0', [[970, 30],[970, 90], [728, 90],[320, 50]], 'div-gpt-40').defineSizeMapping(mappingPromo).addService(googletag.pubads());
+      gptAdSlots[41] = googletag.defineSlot('/22692889424/impress2', [[300, 600],[300, 250]], 'div-gpt-41').defineSizeMapping(mappingVertical).addService(googletag.pubads());
+      gptAdSlots[42] = googletag.defineSlot('/22692889424/impress3', [[300, 600],[300, 250]], 'div-gpt-42').defineSizeMapping(mappingVertical).addService(googletag.pubads());
+      gptAdSlots[43] = googletag.defineSlot('/22692889424/impress4', [[300, 600],[300, 250]], 'div-gpt-43').defineSizeMapping(mappingVertical).addService(googletag.pubads());
+      gptAdSlots[45] = googletag.defineSlot('/22692889424/weather0', [[970, 30],[970, 90], [728, 90],[320, 50]], 'div-gpt-45').defineSizeMapping(mappingPromo).addService(googletag.pubads());
+      gptAdSlots[46] = googletag.defineSlot('/22692889424/weather1', [[300, 600],[300, 250]], 'div-gpt-46').defineSizeMapping(mappingVertical).addService(googletag.pubads());
+      gptAdSlots[47] = googletag.defineSlot('/22692889424/weather2', [[300, 600],[300, 250]], 'div-gpt-47').defineSizeMapping(mappingVertical).addService(googletag.pubads());
+      gptAdSlots[48] = googletag.defineSlot('/22692889424/weather3', [[970, 30],[970, 90], [728, 90],[320, 50]], 'div-gpt-48').defineSizeMapping(mappingPromo).addService(googletag.pubads());
+      gptAdSlots[49] = googletag.defineSlot('/22692889424/contest0', [[970, 30],[970, 90], [728, 90],[320, 50]], 'div-gpt-49').defineSizeMapping(mappingPromo).addService(googletag.pubads());
+      gptAdSlots[55] = googletag.defineSlot('/22692889424/mf0', [300,250], 'div-gpt-55').defineSizeMapping(mappingMobileRectangle).addService(googletag.pubads());
+      gptAdSlots[56] = googletag.defineSlot('/22692889424/mf1', [[320, 50],[300,250]], 'div-gpt-56').defineSizeMapping(mappingMobileFiller).addService(googletag.pubads());
+      gptAdSlots[57] = googletag.defineSlot('/22692889424/mf2', [[320, 50],[300,250]], 'div-gpt-57').defineSizeMapping(mappingMobileFiller).addService(googletag.pubads());
+      /* BEGIN: Adunits for extra impression on PAN */
+      gptAdSlots[70] = googletag.defineSlot('/22692889424/adunit70', [[300, 600],[300, 250]], 'div-gpt-70').defineSizeMapping(mappingVertical).addService(googletag.pubads());
+      //gptAdSlots[71] = googletag.defineSlot('/22692889424/adunit71', [[970, 90],[728, 90],[320, 50]], 'div-gpt-71').defineSizeMapping(mappingHorizontal).addService(googletag.pubads());
+      gptAdSlots[72] = googletag.defineSlot('/22692889424/adunit72', [320, 50], 'div-gpt-72').addService(googletag.pubads());
+      gptAdSlots[73] = googletag.defineSlot('/22692889424/adunit73', [[970, 90],[728, 90],[320, 50]], 'div-gpt-73').defineSizeMapping(mappingHorizontal).addService(googletag.pubads()); 
+      //gptAdSlots[75] = googletag.defineSlot('/22692889424/adunit75', [[970, 90],[728, 90],[320, 50]], 'div-gpt-75').defineSizeMapping(mappingHorizontal).addService(googletag.pubads()); 
+      gptAdSlots[77] = googletag.defineSlot('/22692889424/adunit77', [[970, 90],[728, 90],[320, 50]], 'div-gpt-77').defineSizeMapping(mappingHorizontal).addService(googletag.pubads()); 
+      /* END: Adunits for extra impression on PAN */
+
+      googletag.pubads().setTargeting('site', ['vancouverislandfreedaily.com']).setTargeting('section', ['business','local-business','news','ros']).setTargeting('region', ['Vancouver Island']);
+      googletag.pubads().enableSingleRequest();
+      googletag.pubads().disableInitialLoad();
+      googletag.pubads().collapseEmptyDivs();
+      googletag.enableServices();
+    });
+  </script>
+  <!-- End DoubleClick for Publishers -->
+
+
+<!-- Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-17100516-32"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config','UA-17100516-32',{'dimension1': 'Hugo Wong','dimension2': 'business,home2,local business,news', 'dimension3': 'untagged', 'dimension4': 'post'});
+  gtag('config','UA-17099191-3',{'dimension1': 'Hugo Wong','dimension2': 'business,home2,local business,news', 'dimension3': 'untagged', 'dimension4': 'post'});
+  gtag('config','UA-17099191-1',{'dimension1': 'Hugo Wong','dimension2': 'business,home2,local business,news', 'dimension3': 'untagged', 'dimension4': 'post'});
+  gtag('config','UA-17099191-9',{'dimension1': 'Hugo Wong','dimension2': 'business,home2,local business,news', 'dimension3': 'untagged', 'dimension4': 'post'});
+</script>
+<!-- End Google Analytics -->
+<!-- Google Analytics Event elements -->
+<script type='text/javascript'>
+  $(document).ready(function(){
+    $("ul.dropdown.menu:first-child > li > a.search").click(function(){
+      gtag('event', 'Click', {'event_category': 'Main Navigation', 'event_label': 'Search Button'});
+    });
+    $("a.pub-logo-large").click(function(){
+      gtag('event', 'Click', {'event_category': 'Main Navigation', 'event_label': 'Header Logo'});
+    });
+    $(".module-adjacent-posts .adjacent-next a").click(function(){
+      gtag('event', 'Click', {'event_category': 'Recirculating Content', 'event_label': 'Next Adjacent Story'});
+    });
+    $(".module-adjacent-posts .adjacent-prev a").click(function(){
+      gtag('event', 'Click', {'event_category': 'Recirculating Content', 'event_label': 'Previous Adjacent Story'});
+    });
+    $("a.social").click(function(){
+      gtag('event', 'Click', {'event_category': 'Recirculating Content', 'event_label': 'Article Social Share'});
+    });
+    $("a.social").click(function(){
+      gtag('event', 'Click', {'event_category': 'Recirculating Content', 'event_label': 'Article Social Share'});
+    });
+  });
+</script>
+<!-- End Event elements -->
+
+<!-- Start Chartbeat -->
+<script type='text/javascript'>
+    (function() {
+        var _sf_async_config = window._sf_async_config = (window._sf_async_config || {});
+        _sf_async_config.uid = 65935
+        _sf_async_config.domain = 'vancouverislandfreedaily.com'; 
+        _sf_async_config.useCanonical = false;
+        _sf_async_config.useCanonicalDomain = true;
+        _sf_async_config.authors = 'Hugo Wong'; 
+        _sf_async_config.sections = 'Business, Home2, Local Business, News'; 
+        function loadChartbeat() {
+            var e = document.createElement('script');
+            var n = document.getElementsByTagName('script')[0];
+            e.type = 'text/javascript';
+            e.async = true;
+            e.src = '//static.chartbeat.com/js/chartbeat.js';
+            n.parentNode.insertBefore(e, n);
+        }
+        loadChartbeat();
+     })();
+</script>
+<!-- End Chartbeat -->
+<!-- Start echo_header_meta_tags() for SEO -- UPDATED Version for rank math plugin -->
+<meta name="is_accessible_for_free" content="false" />
+<meta property="article:opinion" content="false"/>
+<meta property="article:location" content="city:Nanaimo,Canada" />
+<meta property="fb:app_id" content="323184441348603" />
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"NewsArticle","isAccessibleForFree":false,"isPartOf":{"@type":["CreativeWork","Product"],"name":"Vancouver Island Free Daily","productID":"vancouverislandfreedaily.com:showcase"},"url":"https:\/\/www.vancouverislandfreedaily.com\/business\/pages-books-in-brentwood-bay-falls-on-hard-times\/","mainEntityOfPage":{"@type":"WebPage","@id":"https:\/\/www.vancouverislandfreedaily.com\/business\/pages-books-in-brentwood-bay-falls-on-hard-times\/"},"headline":"Pages Books in Brentwood Bay falls on hard times","datePublished":"2018-03-20T17:30:00-07:00","dateModified":"2018-03-20T17:30:00-07:00","thumbnailUrl":"https:\/\/www.vancouverislandfreedaily.com\/wp-content\/uploads\/2018\/03\/11129398_web1_180320-PNR-pagesbooks.jpg","image":{"@type":"ImageObject","url":"https:\/\/www.vancouverislandfreedaily.com\/wp-content\/uploads\/2018\/03\/11129398_web1_180320-PNR-pagesbooks.jpg","width":974,"height":698},"author":{"@type":"Person","name":"Hugo Wong"},"publisher":{"@type":"Organization","name":"Vancouver Island Free Daily","logo":{"@type":"ImageObject","url":"https:\/\/www.vancouverislandfreedaily.com\/wp-content\/themes\/BlackPress\/assets\/images\/logos\/ifd-logo.png","width":508,"height":39}},"contentLocation":{"@type":"Place","name":"Nanaimo, British Columbia, Canada"},"dateline":"Nanaimo, British Columbia, Canada","description":"\n\t\t\t\t&lt;p&gt;Store has been closed for several weeks, GoFundMe started by a fan &lt;\/p&gt;\n\t\t\t"}</script>
+<!-- End echo_header_meta_tags() for SEO -- UPDATED Version for rank math plugin -->
+        <script>window.twttr = (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0],
+            t = window.twttr || {};
+        if (d.getElementById(id)) return t;
+        js = d.createElement(s);
+        js.id = id;
+        js.src = "https://platform.twitter.com/widgets.js";
+        fjs.parentNode.insertBefore(js, fjs);
+
+        t._e = [];
+        t.ready = function(f) {
+            t._e.push(f);
+        };
+
+        return t;
+        }(document, "script", "twitter-wjs"));</script>
+        
+
+<!-- 
+    * Script creates the global generalSettings js array. 
+    * Key/Value pair of Black Press general settings section: option name, option value 
+    * NOTE: new options should be added to this array 
+-->
+<script type='text/javascript'>
+        var generalSettings = {"postal_code":"V9S 2H7","pub_code":"IFD","secondstreet_contest_feed":"http:\/\/vifd.upickem.net\/Engine\/XMLFeed.aspx?AffiliateID=VIFD"};
+
+</script>
+
+
+</head>
+    <body class="post-template-default single single-post postid-11304 single-format-standard offcanvas">
+            <!-- BEGIN: FACE BOOK COMMENTS PLUGIN CODE -->
+        <div id="fb-root"></div>
+        <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v8.0&appId=323184441348603&autoLogAppEvents=1" nonce="IC2twOwL"></script>
+        <!-- END: FACE BOOK COMMENTS PLUGIN CODE -->
+        
+    
+    
+    
+    <header id="masthead" class="site-header row collapse" role="banner">
+        <!-- original divs replaced by code after. Note still have 2 divs, 
+             with different settings for mobile and desktop -->
+        <!-- <div  class="small-12 columns" data-sticky-container > -->
+        <!-- <div id="sticky-menu-bar-container" class="top-bar title-bar row collapse" data-sticky data-options="marginTop:0;" style="width:100%"> -->
+        <div  class="small-12 columns" data-sticky-container ><div id="sticky-menu-bar-container" class="top-bar title-bar row collapse" data-sticky data-options="marginTop:0;" style="width:100%">            
+            
+                <article id="text-1" class="menu-button-container small-2 medium-1 columns">
+                                        <div id="mobile-menu-button" data-responsive-toggle="site-navigation" data-hide-for="medium" class="hide-for-medium">
+                        <button class="fa fa-bars menu" type="button" data-toggle="site-navigation"></button>
+                    </div>
+                    <ul id="menu-mainmenu" class="dropdown menu day-4 show-for-medium" data-dropdown-menu data-options="hoverDelay:150;"><li><a href="#"><i class="fa fa-bars menu"></i></a><ul class="dropdown menu" data-dropdown-menu><li class='nav-search'><a href='/search/'><i class='fa fa-search menu'></i>Search</a></li><li id="menu-item-320" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-320"><a href="https://www.vancouverislandfreedaily.com/">Home</a></li>
+<li id="menu-item-363" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-363"><a href="https://www.vancouverislandfreedaily.com/submit/">Submit News Tip</a></li>
+<li id="menu-item-121307" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-121307"><a target="_blank" rel="noopener" href="//www.canadianevergreen.com">Cannabis</a></li>
+<li id="menu-item-169" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-has-children menu-item-169"><a href="https://www.vancouverislandfreedaily.com/news/">News</a>
+<ul class="dropdown menu vertical" data-toggle>
+	<li id="menu-item-229179" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-229179"><a href="/tag/coronavirus/">COVID-19</a></li>
+	<li id="menu-item-170" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-170"><a href="https://www.vancouverislandfreedaily.com/local-news/">Island</a></li>
+	<li id="menu-item-25137" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-25137"><a href="https://www.vancouverislandfreedaily.com/municipal-election/">Municipal Election</a></li>
+	<li id="menu-item-570" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-570"><a target="_blank" rel="noopener" href="http://bclocalnews.com">BC</a></li>
+	<li id="menu-item-80467" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-80467"><a href="/tag/canada-election-2021/">Canada Election 2021</a></li>
+	<li id="menu-item-172" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-172"><a href="https://www.vancouverislandfreedaily.com/national-news/">National</a></li>
+	<li id="menu-item-1243" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1243"><a href="/e-editions/">eEditions</a></li>
+	<li id="menu-item-176" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-176"><a href="https://www.vancouverislandfreedaily.com/submit/">Submit news tip or photo</a></li>
+</ul>
+</li>
+<li id="menu-item-198583" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-198583"><a href="/puzzles/">Puzzles</a></li>
+<li id="menu-item-198552" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-198552"><a href="/contests/">Contests</a></li>
+<li id="menu-item-177" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-177"><a href="https://www.vancouverislandfreedaily.com/sports/">Sports</a>
+<ul class="dropdown menu vertical" data-toggle>
+	<li id="menu-item-178" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-178"><a href="https://www.vancouverislandfreedaily.com/local-sports/">Island</a></li>
+	<li id="menu-item-571" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-571"><a target="_blank" rel="noopener" href="http://www.bclocalnews.com/sports/">BC</a></li>
+	<li id="menu-item-579" class="menu-item menu-item-type-taxonomy menu-item-object-post_tag menu-item-579"><a href="https://www.vancouverislandfreedaily.com/tag/canucks/">Canucks</a></li>
+	<li id="menu-item-578" class="menu-item menu-item-type-taxonomy menu-item-object-post_tag menu-item-578"><a href="https://www.vancouverislandfreedaily.com/tag/bchl/">BCHL</a></li>
+	<li id="menu-item-583" class="menu-item menu-item-type-taxonomy menu-item-object-post_tag menu-item-583"><a href="https://www.vancouverislandfreedaily.com/tag/nhl/">NHL</a></li>
+	<li id="menu-item-582" class="menu-item menu-item-type-taxonomy menu-item-object-post_tag menu-item-582"><a href="https://www.vancouverislandfreedaily.com/tag/nfl/">NFL</a></li>
+	<li id="menu-item-581" class="menu-item menu-item-type-taxonomy menu-item-object-post_tag menu-item-581"><a href="https://www.vancouverislandfreedaily.com/tag/nba/">NBA</a></li>
+	<li id="menu-item-584" class="menu-item menu-item-type-taxonomy menu-item-object-post_tag menu-item-584"><a href="https://www.vancouverislandfreedaily.com/tag/mlb/">MLB</a></li>
+	<li id="menu-item-179" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-179"><a href="https://www.vancouverislandfreedaily.com/national-sports/">Canada &amp; World</a></li>
+	<li id="menu-item-180" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-180"><a href="https://www.vancouverislandfreedaily.com/submit/">Submit sports tip or photo</a></li>
+</ul>
+</li>
+<li id="menu-item-106338" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-106338"><a target="_blank" rel="noopener" href="//www.westcoasttraveller.com/">Travel</a>
+<ul class="dropdown menu vertical" data-toggle>
+	<li id="menu-item-106649" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-106649"><a href="https://www.vancouverislandfreedaily.com/travel/">Local Travel</a></li>
+	<li id="menu-item-106650" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-106650"><a target="_blank" rel="noopener" href="//www.westcoasttraveller.com/">West Coast Traveller</a></li>
+</ul>
+</li>
+<li id="menu-item-181" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-181"><a href="https://www.vancouverislandfreedaily.com/trending-now/">Trending Now</a></li>
+<li id="menu-item-82935" class="hide menu-item menu-item-type-custom menu-item-object-custom menu-item-82935"><a href="//autos.vancouverislandfreedaily.com/">Autos</a></li>
+<li id="menu-item-48041" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-48041"><a target="_blank" rel="noopener" href="//usedvictoria.com">Classifieds</a>
+<ul class="dropdown menu vertical" data-toggle>
+	<li id="menu-item-242120" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-242120"><a target="_blank" rel="noopener" href="//usedvictoria.com">View ad</a></li>
+	<li id="menu-item-242329" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-242329"><a target="_blank" rel="noopener" href="//www.bcclassifieds.com/placead_categories.cmp">Place an ad</a></li>
+</ul>
+</li>
+<li id="menu-item-15111" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-15111"><a target="_blank" rel="noopener" href="//www.localwork.ca">Jobs</a></li>
+<li id="menu-item-182" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-has-children menu-item-182"><a href="https://www.vancouverislandfreedaily.com/business/">Business</a>
+<ul class="dropdown menu vertical" data-toggle>
+	<li id="menu-item-183" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-183"><a href="https://www.vancouverislandfreedaily.com/local-business/">Island</a></li>
+	<li id="menu-item-572" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-572"><a target="_blank" rel="noopener" href="http://bclocalnews.com/business">BC</a></li>
+	<li id="menu-item-185" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-185"><a href="https://www.vancouverislandfreedaily.com/submit/">Submit business tip or photo</a></li>
+</ul>
+</li>
+<li id="menu-item-186" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-186"><a href="https://www.vancouverislandfreedaily.com/entertainment/">Entertainment</a>
+<ul class="dropdown menu vertical" data-toggle>
+	<li id="menu-item-187" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-187"><a href="https://www.vancouverislandfreedaily.com/local-entertainment/">Island</a></li>
+	<li id="menu-item-573" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-573"><a target="_blank" rel="noopener" href="http://bclocalnews.com/entertainment">BC</a></li>
+	<li id="menu-item-792" class="menu-item menu-item-type-taxonomy menu-item-object-post_tag menu-item-792"><a href="https://www.vancouverislandfreedaily.com/tag/canada-world/">Canada &amp; World</a></li>
+	<li id="menu-item-189" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-189"><a href="https://www.vancouverislandfreedaily.com/submit/">Submit entertainment tip or photo</a></li>
+</ul>
+</li>
+<li id="menu-item-67681" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-67681"><a href="https://www.vancouverislandfreedaily.com/photo-galleries/">Photo Galleries</a></li>
+<li id="menu-item-190" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-190"><a href="https://www.vancouverislandfreedaily.com/life/">Life</a>
+<ul class="dropdown menu vertical" data-toggle>
+	<li id="menu-item-27301" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-27301"><a href="https://www.vancouverislandfreedaily.com/life/">Life</a></li>
+	<li id="menu-item-191" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-191"><a href="https://www.vancouverislandfreedaily.com/life/">Island</a></li>
+	<li id="menu-item-585" class="menu-item menu-item-type-taxonomy menu-item-object-post_tag menu-item-585"><a href="https://www.vancouverislandfreedaily.com/tag/food/">Food</a></li>
+	<li id="menu-item-586" class="menu-item menu-item-type-taxonomy menu-item-object-post_tag menu-item-586"><a href="https://www.vancouverislandfreedaily.com/tag/health/">Health</a></li>
+	<li id="menu-item-587" class="menu-item menu-item-type-taxonomy menu-item-object-post_tag menu-item-587"><a href="https://www.vancouverislandfreedaily.com/tag/horoscopes/">Horoscopes</a></li>
+	<li id="menu-item-588" class="menu-item menu-item-type-taxonomy menu-item-object-post_tag menu-item-588"><a href="https://www.vancouverislandfreedaily.com/tag/travel/">Travel</a></li>
+	<li id="menu-item-193" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-193"><a target="_blank" rel="noopener" href="http://winetrails.ca">Wine Trails</a></li>
+	<li id="menu-item-194" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-194"><a href="https://www.vancouverislandfreedaily.com/submit/">Submit life tip or photo</a></li>
+</ul>
+</li>
+<li id="menu-item-28205" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-28205"><a href="https://www.vancouverislandfreedaily.com/community/">Community</a>
+<ul class="dropdown menu vertical" data-toggle>
+	<li id="menu-item-21200" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-21200"><a href="https://www.vancouverislandfreedaily.com/miss-bc/">Miss BC</a></li>
+	<li id="menu-item-69653" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-69653"><a href="https://www.vancouverislandfreedaily.com/social-matters/">Social Matters</a></li>
+	<li id="menu-item-28207" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-28207"><a target="_blank" rel="noopener" href="//www.facebook.com/iLoveBritishColumbia">I Love British Columbia</a></li>
+	<li id="menu-item-28208" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-28208"><a href="https://www.vancouverislandfreedaily.com/submit/">Submit community tip or photo</a></li>
+</ul>
+</li>
+<li id="menu-item-282" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-282"><a href="https://www.vancouverislandfreedaily.com/opinion/">Opinion</a>
+<ul class="dropdown menu vertical" data-toggle>
+	<li id="menu-item-204" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-204"><a href="https://www.vancouverislandfreedaily.com/opinion/">Island Opinion</a></li>
+	<li id="menu-item-202" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-202"><a href="https://www.vancouverislandfreedaily.com/editorials-opinion/">Editorials</a></li>
+	<li id="menu-item-201" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-201"><a href="https://www.vancouverislandfreedaily.com/columns/">Columnists</a></li>
+	<li id="menu-item-362" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-362"><a href="https://www.vancouverislandfreedaily.com/web-poll/">Web poll</a></li>
+	<li id="menu-item-206" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-206"><a href="https://www.vancouverislandfreedaily.com/submitletters/">Submit letter</a></li>
+</ul>
+</li>
+<li id="menu-item-210" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-210"><a href="/video/">Video</a>
+<ul class="dropdown menu vertical" data-toggle>
+	<li id="menu-item-28206" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-28206"><a href="/video/">Video</a></li>
+	<li id="menu-item-229201" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-229201"><a href="/auto-showcase/">Auto Showcase</a></li>
+	<li id="menu-item-141107" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-141107"><a href="/impress-tv/">Sponsored Video</a></li>
+	<li id="menu-item-211" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-211"><a href="https://www.vancouverislandfreedaily.com/videos/">Island</a></li>
+	<li id="menu-item-212" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-212"><a href="https://www.vancouverislandfreedaily.com/submit/">Submit video</a></li>
+</ul>
+</li>
+<li id="menu-item-214" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-214"><a href="https://www.vancouverislandfreedaily.com/weather/">Weather</a></li>
+<li id="menu-item-45468" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-45468"><a href="https://www.vancouverislandfreedaily.com/obituaries/">Obituaries</a>
+<ul class="dropdown menu vertical" data-toggle>
+	<li id="menu-item-141988" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-141988"><a href="https://www.vancouverislandfreedaily.com/obituaries/">Obituaries</a></li>
+	<li id="menu-item-141991" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-141991"><a href="/tag/celebrations-of-life/">Celebrations of Life</a></li>
+	<li id="menu-item-141992" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-141992"><a href="/funeral-care-services/">Funeral Care Services</a></li>
+	<li id="menu-item-141997" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-141997"><a href="https://www.vancouverislandfreedaily.com/in-memory/">In Memory</a></li>
+	<li id="menu-item-142002" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-142002"><a href="/contact-us/?ref=contact-us-obituaries">Place an Obituary</a></li>
+</ul>
+</li>
+<li id="menu-item-217" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-217"><a href="https://www.vancouverislandfreedaily.com/marketplace/">Marketplace</a>
+<ul class="dropdown menu vertical" data-toggle>
+	<li id="menu-item-141108" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-141108"><a href="https://www.vancouverislandfreedaily.com/marketplace/">Impress</a></li>
+	<li id="menu-item-18990" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-18990"><a target="_blank" rel="noopener" href="//impresstv.blackpress.ca">Impress Studio</a></li>
+	<li id="menu-item-275" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-275"><a href="https://www.vancouverislandfreedaily.com/advertise/">Place an ad</a></li>
+</ul>
+</li>
+<li id="menu-item-224" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-224"><a href="https://www.vancouverislandfreedaily.com/contact-us/">Contact Us</a>
+<ul class="dropdown menu vertical" data-toggle>
+	<li id="menu-item-225" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-225"><a href="https://www.vancouverislandfreedaily.com/contact-us/">Contact Us</a></li>
+	<li id="menu-item-226" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-226"><a href="https://www.vancouverislandfreedaily.com/our-team/">Our Team</a></li>
+	<li id="menu-item-230" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-230"><a target="_blank" rel="noopener" href="http://blackpress.ca">Black Press</a></li>
+	<li id="menu-item-231" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-231"><a href="https://www.vancouverislandfreedaily.com/submit/">Submit tip or photo</a></li>
+	<li id="menu-item-227" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-227"><a href="https://www.vancouverislandfreedaily.com/faq/">FAQ</a></li>
+	<li id="menu-item-228" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-228"><a href="https://www.vancouverislandfreedaily.com/privacy-policy/">Privacy Policy</a></li>
+	<li id="menu-item-229" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-229"><a href="https://www.vancouverislandfreedaily.com/terms-of-use/">Terms of use</a></li>
+</ul>
+</li>
+<li id="menu-item-87068" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-87068"><a href="https://www.vancouverislandfreedaily.com/site-map/">Site Map</a></li>
+</ul></li></ul>
+                </article>
+                <article id="text-2" class="small-8 medium-10 columns">
+                                        <article id="text-12" class="header-widget-left widget_text">			<div class="textwidget"><ul class="social header">
+	<!-- <li><a title="Weather" class="social fa fa-cloud" href="/weather/"></a></li> -->
+	<li><a title="Follow us on Facebook" class="social fa fa-facebook-f" href="https://www.facebook.com/vifreedaily/" target="_blank" rel="noopener"></a></li>
+	<li><a title="Follow us on Twitter" class="social fa fa-twitter" href="https://twitter.com/vifreedaily" target="_blank" rel="noopener"></a></li>
+	<li><a title="Follow us on Instagram" class="social fa fa-instagram" href="https://www.instagram.com/vifreedaily/?hl=en" target="_blank" rel="noopener"></a></li>
+</ul></div>
+		</article>                    <article id="text-11" class="header-widget-center widget_text">			<div class="textwidget"><a class="pub-logo-large day-4" href="https://www.vancouverislandfreedaily.com/"><svg id="Outline" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 507.03 37.74"><defs><style>.cls-1{fill:#231f20;}</style></defs><title></title><path class="bp-pub-logo" d="M3,7.5H9.5L12.61,33h.1L16.13,7.5h5.35L16,43.81H8.43Z" transform="translate(-3.02 -6.79)"/><path class="bp-pub-logo" d="M28.11,7.5H37.7l4.49,36.31H35.81l-1-8.06H29.49l-.92,8.06H23Zm4.23,5.61h-.1L30.15,30.45h4.13Z" transform="translate(-3.02 -6.79)"/><path class="bp-pub-logo" d="M45.4,7.5h6.48l6.07,19.17H58V7.5h5.3V43.81H58.2l-7.09-22H51v22H45.4Z" transform="translate(-3.02 -6.79)"/><path class="bp-pub-logo" d="M79.52,20.66c0-6-.77-8.26-2.4-8.26-1.38,0-2.75.92-2.75,13.26,0,11.93.71,13.26,2.75,13.26,2.19,0,2.7-3.37,2.8-8.62l5.61.25c0,6.32-.92,14-8.67,14-7.09,0-9.43-6.94-9.43-18.87,0-13.87,4.18-18.87,9.43-18.87,7.65,0,8.57,7,8.57,13.67Z" transform="translate(-3.02 -6.79)"/><path class="bp-pub-logo" d="M98.9,6.79c5.86,0,9.69,4.54,9.69,18.87s-3.82,18.87-9.69,18.87S89.21,40,89.21,25.66,93,6.79,98.9,6.79ZM96.45,29.48c0,7.85.92,9.43,2.45,9.43s2.45-1.58,2.45-9.43V21.83c0-7.85-.92-9.43-2.45-9.43S96.45,14,96.45,21.83Z" transform="translate(-3.02 -6.79)"/><path class="bp-pub-logo" d="M112.67,7.5h6.63V35.6c0,1.63.36,3.31,2.29,3.31S124,37.33,124,35.6V7.5h5.61V34.73c0,7.14-3.16,9.79-8.47,9.79-5.1,0-8.52-2.65-8.52-9.79Z" transform="translate(-3.02 -6.79)"/><path class="bp-pub-logo" d="M132.76,7.5h6.48L142.35,33h.1l3.42-25.5h5.35l-5.46,36.31h-7.6Z" transform="translate(-3.02 -6.79)"/><path class="bp-pub-logo" d="M154.59,7.5h15v5.61h-8.36v9.28h6.17v5.92h-6.17V38.2h8.72v5.61H154.59Z" transform="translate(-3.02 -6.79)"/><path class="bp-pub-logo" d="M173.56,7.5H181c6.32,0,10.5,2.65,10.5,10.3,0,3.06-.92,7.14-3.88,8.87l3.93,17.13h-6.68l-3.11-15.6h-1.58v15.6h-6.63Zm6.63,15.4h1.33c2.45,0,3.37-2.45,3.37-5,0-3.93-1.43-5-3.67-5h-1Z" transform="translate(-3.02 -6.79)"/><path class="bp-pub-logo" d="M206,7.5h6.63V43.81H206Z" transform="translate(-3.02 -6.79)"/><path class="bp-pub-logo" d="M222.21,33.31c0,2,0,5.61,2.86,5.61,2.19,0,3-2,3-3.52,0-6.48-12-8-12-18.72,0-5.46,3-9.89,8.57-9.89,6,0,8.26,4.54,8.41,11.07h-5.92c0-2,0-5.46-2.65-5.46-1.58,0-2.5,1.33-2.5,3.31,0,6.17,12,8.26,12,18.82,0,5.56-3.16,10-9.13,10-7.09,0-8.52-6.22-8.52-11.22Z" transform="translate(-3.02 -6.79)"/><path class="bp-pub-logo" d="M237.56,7.5h6.63V38.2h8.47v5.61H237.56Z" transform="translate(-3.02 -6.79)"/><path class="bp-pub-logo" d="M259.8,7.5h9.59l4.49,36.31H267.5l-1-8.06h-5.35l-.92,8.06H254.7ZM264,13.11h-.1l-2.09,17.34H266Z" transform="translate(-3.02 -6.79)"/><path class="bp-pub-logo" d="M277.09,7.5h6.48l6.07,19.17h.1V7.5H295V43.81h-5.15l-7.09-22h-.1v22h-5.61Z" transform="translate(-3.02 -6.79)"/><path class="bp-pub-logo" d="M300.09,7.5h5.76C317,7.5,318,14.64,318,25.66c0,10.5-.87,18.15-11.12,18.15h-6.83Zm6.63,30.7c4.18-.05,4.38-1.58,4.38-12.6s-.2-12.44-4.38-12.49Z" transform="translate(-3.02 -6.79)"/><path class="bp-pub-logo" d="M333.75,7.5h14.84v5.61h-8.21V22.8h6.07v5.92h-6.07V43.81h-6.63Z" transform="translate(-3.02 -6.79)"/><path class="bp-pub-logo" d="M351.75,7.5h7.45c6.32,0,10.5,2.65,10.5,10.3,0,3.06-.92,7.14-3.87,8.87l3.93,17.13h-6.68L360,28.21h-1.58v15.6h-6.63Zm6.63,15.4h1.33c2.45,0,3.37-2.45,3.37-5,0-3.93-1.43-5-3.67-5h-1Z" transform="translate(-3.02 -6.79)"/><path class="bp-pub-logo" d="M373.53,7.5h15v5.61h-8.36v9.28h6.17v5.92h-6.17V38.2h8.72v5.61H373.53Z" transform="translate(-3.02 -6.79)"/><path class="bp-pub-logo" d="M392.5,7.5h15v5.61h-8.36v9.28h6.17v5.92h-6.17V38.2h8.72v5.61H392.5Z" transform="translate(-3.02 -6.79)"/><path class="bp-pub-logo" d="M422.38,7.5h5.76c11.12,0,12.19,7.14,12.19,18.15,0,10.5-.87,18.15-11.12,18.15h-6.83ZM429,38.2c4.18-.05,4.38-1.58,4.38-12.6s-.2-12.44-4.38-12.49Z" transform="translate(-3.02 -6.79)"/><path class="bp-pub-logo" d="M448.39,7.5H458l4.49,36.31h-6.37l-1-8.06h-5.35l-.92,8.06h-5.56Zm4.23,5.61h-.1l-2.09,17.34h4.13Z" transform="translate(-3.02 -6.79)"/><path class="bp-pub-logo" d="M465.68,7.5h6.63V43.81h-6.63Z" transform="translate(-3.02 -6.79)"/><path class="bp-pub-logo" d="M477.36,7.5H484V38.2h8.46v5.61H477.36Z" transform="translate(-3.02 -6.79)"/><path class="bp-pub-logo" d="M497.35,29.79,491.28,7.5h6.58L501,21.73h.1L504.49,7.5H510L504,29.18V43.81h-6.63Z" transform="translate(-3.02 -6.79)"/></svg></a></div>
+		</article>                    <article id="text-33" class="header-widget-right show-for-medium"><div id="weatherContainer" class="textwidget float-right" ><a href="https://www.accuweather.com/en/ca/nanaimo/v9r/weather-forecast/47168" 
+                                        class="aw-widget-legal">
+                                        </a><div id="awcc1517421899697" class="aw-widget-current"  data-locationkey="47168" data-unit="c" data-language="en-us" data-useip="false" data-uid="awcc1517421899697" data-targeturl="/weather/"></div><script type="text/javascript" src="https://oap.accuweather.com/launch.js"></script></div></article>                </article>
+
+                <!-- Search -->
+                <article id="text-5" class="small-2 medium-1 columns">
+                    
+                        <button id="btn_search" type="button" class="float-right fa fa-search menu"></button>
+
+                </article>
+
+                <!-- Search -->
+                <article id="div_search" class="small-12 columns">
+                <!-- **************** -->
+                <!-- Search form container -->
+                    
+                                        <form name="searchForm" action="/search/">
+  
+                        <div class="row collapse">
+                            <div class="small-12 columns">
+
+                                <div class="row collapse"> 
+                                    <div class="small-2 columns">
+                                        &nbsp;
+                                      <input name="cx" value="015619971846971042401:ufh1ywe-cms" type="hidden">
+                                    </div>
+
+                                    <div class="small-1 columns">
+                                        &nbsp;
+                                      <input name="ie" value="UTF-8" type="hidden">
+                                    </div>
+
+                                    <div class="small-6 columns">
+                                        <input id="google_search_field" class="google-search-field" name="q" value="Story Search" style="" type="text">
+                                      
+                                    </div>
+
+                                    <div class="small-3 columns">
+                                      
+                                        <input class="google-search-button" value="Search" type="submit">
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+                          
+                    </form>
+                 
+                <!-- **************** -->
+                </article>
+                
+                <article class="small-12 medium-12 columns">
+                    <div class="line"></div>
+                </article>
+            
+            </div>
+
+        </div>
+
+        <div class ="column row" id="header-second-row" >
+            
+            <ul data-test="test" id="menu-secondarymenu" class="dropdown menu" data-dropdown-menu>
+                                    <li id="menu-item-317" class="current-menu-item menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-317"><a href="/video/">Video</a>
+<ul class="vertical nested menu">
+	<li id="menu-item-18985" class="show-for-medium menu-item menu-item-type-custom menu-item-object-custom menu-item-18985"><a href="/video/">Video</a></li>
+	<li id="menu-item-229188" class="show-for-medium menu-item menu-item-type-custom menu-item-object-custom menu-item-229188"><a href="/auto-showcase/">Auto Showcase</a></li>
+	<li id="menu-item-141106" class="show-for-medium menu-item menu-item-type-custom menu-item-object-custom menu-item-141106"><a href="/impress-tv/">Sponsored Video</a></li>
+	<li id="menu-item-18984" class="show-for-medium menu-item menu-item-type-post_type menu-item-object-page menu-item-18984"><a href="https://www.vancouverislandfreedaily.com/submit/">Submit video</a></li>
+</ul>
+</li>
+<li id="menu-item-249" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-has-children menu-item-249"><a href="https://www.vancouverislandfreedaily.com/news/">News</a>
+<ul class="vertical nested menu">
+	<li id="menu-item-250" class="show-for-medium menu-item menu-item-type-taxonomy menu-item-object-category menu-item-250"><a href="https://www.vancouverislandfreedaily.com/local-news/">Island News</a></li>
+	<li id="menu-item-25146" class="show-for-medium menu-item menu-item-type-taxonomy menu-item-object-category menu-item-25146"><a href="https://www.vancouverislandfreedaily.com/municipal-election/">Municipal Election</a></li>
+	<li id="menu-item-577" class="show-for-medium menu-item menu-item-type-custom menu-item-object-custom menu-item-577"><a target="_blank" rel="noopener" href="http://bclocalnews.com">BC</a></li>
+	<li id="menu-item-251" class="show-for-medium menu-item menu-item-type-taxonomy menu-item-object-category menu-item-251"><a href="https://www.vancouverislandfreedaily.com/national-news/">National</a></li>
+</ul>
+</li>
+<li id="menu-item-199844" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-199844"><a href="https://www.vancouverislandfreedaily.com/podcasts/">Podcasts</a></li>
+<li id="menu-item-121330" class="hide menu-item menu-item-type-taxonomy menu-item-object-post_tag menu-item-has-children menu-item-121330"><a href="https://www.vancouverislandfreedaily.com/tag/bc-politics/">BC Politics</a>
+<ul class="vertical nested menu">
+	<li id="menu-item-121332" class="show-for-medium menu-item menu-item-type-taxonomy menu-item-object-post_tag menu-item-121332"><a href="https://www.vancouverislandfreedaily.com/tag/bc-legislature/">BC Legislature</a></li>
+	<li id="menu-item-121331" class="show-for-medium menu-item menu-item-type-taxonomy menu-item-object-post_tag menu-item-121331"><a href="https://www.vancouverislandfreedaily.com/tag/bc-politics/">BC Politics</a></li>
+	<li id="menu-item-121333" class="show-for-medium menu-item menu-item-type-taxonomy menu-item-object-post_tag menu-item-121333"><a href="https://www.vancouverislandfreedaily.com/tag/bc-liberals/">BC Liberals</a></li>
+	<li id="menu-item-121334" class="show-for-medium menu-item menu-item-type-taxonomy menu-item-object-post_tag menu-item-121334"><a href="https://www.vancouverislandfreedaily.com/tag/bc-ndp/">BC NDP</a></li>
+	<li id="menu-item-123364" class="show-for-medium menu-item menu-item-type-custom menu-item-object-custom menu-item-123364"><a href="/tag/bc-green/">BC Green</a></li>
+</ul>
+</li>
+<li id="menu-item-15720" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-15720"><a target="_blank" rel="noopener" href="https://vifd.secondstreetapp.com/Signup/">Sign Up</a></li>
+<li id="menu-item-134439" class="show-for-medium menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-134439"><a target="_blank" rel="noopener" href="//www.westcoasttraveller.com/">Travel</a>
+<ul class="vertical nested menu">
+	<li id="menu-item-134440" class="show-for-medium menu-item menu-item-type-taxonomy menu-item-object-category menu-item-134440"><a target="_blank" rel="noopener" href="https://www.vancouverislandfreedaily.com/travel/">Local Travel</a></li>
+	<li id="menu-item-134446" class="show-for-medium menu-item menu-item-type-custom menu-item-object-custom menu-item-134446"><a target="_blank" rel="noopener" href="//www.westcoasttraveller.com/">West Coast Traveller</a></li>
+</ul>
+</li>
+<li id="menu-item-121337" class="show-for-medium menu-item menu-item-type-taxonomy menu-item-object-category menu-item-121337"><a href="https://www.vancouverislandfreedaily.com/national-news/">National</a></li>
+<li id="menu-item-45180" class="show-for-medium menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-45180"><a href="https://www.vancouverislandfreedaily.com/obituaries/">Obituaries</a>
+<ul class="vertical nested menu">
+	<li id="menu-item-45244" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-45244"><a href="/tag/celebrations-of-life/">Celebrations of Life</a></li>
+	<li id="menu-item-45274" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-45274"><a href="/funeral-care-services/">Funeral Care Services</a></li>
+	<li id="menu-item-141985" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-141985"><a href="https://www.vancouverislandfreedaily.com/in-memory/">In Memory</a></li>
+	<li id="menu-item-141986" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-141986"><a href="/contact-us/?ref=contact-us-obituaries">Place an Obituary</a></li>
+</ul>
+</li>
+<li id="menu-item-260" class="show-for-large menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-260"><a target="_blank" rel="noopener" href="//usedvictoria.com">Classifieds</a>
+<ul class="vertical nested menu">
+	<li id="menu-item-242125" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-242125"><a target="_blank" rel="noopener" href="//usedvictoria.com">View ad</a></li>
+	<li id="menu-item-242330" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-242330"><a target="_blank" rel="noopener" href="//www.bcclassifieds.com/placead_categories.cmp">Place an ad</a></li>
+</ul>
+</li>
+<li id="menu-item-561" class="show-for-large menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-561"><a href="https://www.vancouverislandfreedaily.com/marketplace/">Marketplace</a>
+<ul class="vertical nested menu">
+	<li id="menu-item-18987" class="show-for-large menu-item menu-item-type-custom menu-item-object-custom menu-item-18987"><a target="_blank" rel="noopener" href="//impresstv.blackpress.ca">Impress Studio</a></li>
+	<li id="menu-item-562" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-562"><a href="https://www.vancouverislandfreedaily.com/advertise/">Place an ad</a></li>
+</ul>
+</li>
+</ul>            
+        </div>
+
+        <!-- ******* BEGIN: trending bar **************** -->
+        
+                <!-- ******* BEGIN: trending bar **************** -->
+                    <div class ="row" id="header-trending-row">
+                <div class="small-12 columns">
+                    <ul data-test="test" id="menu-trending" class="trending menu" role="menubar">
+                        <!-- ZEPHR_FEATURE global-login-logout-button --><!-- ZEPHR_FEATURE_END global-login-logout-button -->                        
+                        
+                        
+                                                    <li id="menu-item-1110154" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1110154" role="menuitem">
+                                <a target="_blank" href="//autos.vancouverislandfreedaily.com/">Autos</a>
+                            </li>
+                                                
+                        <!--
+                        <li id="menu-item-1110152" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1110152" role="menuitem">
+                            <a target="_blank" href="//www.westcoasttraveller.com/">Travel</a>
+                        </li> -->
+
+                        <li id="menu-item-1110152" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1110152" role="menuitem">
+                            <a href="/contests/">Contests</a>
+                        </li>
+
+                                                    <li id="menu-item-1110164" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1110164" role="menuitem">
+                                <a href="/notices/municipal/">Notices</a>
+                            </li>
+                        
+                        <li id="menu-item-1110153" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1110153" role="menuitem">
+                            <a target="_blank" href="//www.canadianevergreen.com/">Cannabis</a>
+                        </li>
+                        
+                        <li id="menu-item-1110156" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1110156 show-for-medium" role="menuitem">
+                            <a target="_blank" href="//www.localwork.ca/">Jobs</a>
+                        </li>
+                        
+                        <li id="menu-item-1110160" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1110160 show-for-medium" role="menuitem">
+                            <a href="/trending-now/">Trending Now</a>
+                        </li>
+
+                        <li id="menu-item-1110162" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1110162 show-for-large" role="menuitem">
+                            <a href="/business/">Business</a>
+                        </li>
+                        
+                        <li id="menu-item-1110157" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1110157 show-for-large" role="menuitem">
+                            <a href="/puzzles/">Puzzles</a>
+                        </li>
+                  
+                        <li id="menu-item-1110163" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1110163 show-for-large" role="menuitem">
+                            <a href="/contact-us/">Contact Us</a>
+                        </li>
+
+                        <!--    
+                        <li id="menu-item-1110161" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1110161 show-for-large float-right" role="menuitem">
+                            <a style="color: #4a6054;background-color: #ffffff;margin-top:-1.85rem" href="/roots-blues-festival/">ROOTSandBLUES Festival</a>
+                        </li>
+                        -->
+                        
+                        
+                        
+                                                
+                    </ul>
+
+                </div>
+
+            </div> 
+            
+                
+        <!-- ******* END: trending bar **************** -->
+        <!-- ******* END: trending bar **************** -->
+                
+        <!-- Mobile menu -->
+        <nav id="site-navigation" class="main-navigation top-bar" role="navigation">
+            <div class="top-bar-right row">
+                                    
+<nav class="vertical menu" id="mobile-menu" role="navigation">
+    <ul id="menu-mainmenu-1" class="vertical menu accordion menu" data-accordion-menu><li class='nav-search'><a href='/search/'><i class='fa fa-search menu'></i>Search</a></li><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-320"><a href="https://www.vancouverislandfreedaily.com/">Home</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-363"><a href="https://www.vancouverislandfreedaily.com/submit/">Submit News Tip</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-121307"><a target="_blank" rel="noopener" href="//www.canadianevergreen.com">Cannabis</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-has-children menu-item-169"><a href="https://www.vancouverislandfreedaily.com/news/">News</a>
+<ul class="vertical nested menu">
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-229179"><a href="/tag/coronavirus/">COVID-19</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-170"><a href="https://www.vancouverislandfreedaily.com/local-news/">Island</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-25137"><a href="https://www.vancouverislandfreedaily.com/municipal-election/">Municipal Election</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-570"><a target="_blank" rel="noopener" href="http://bclocalnews.com">BC</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-80467"><a href="/tag/canada-election-2021/">Canada Election 2021</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-172"><a href="https://www.vancouverislandfreedaily.com/national-news/">National</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1243"><a href="/e-editions/">eEditions</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-176"><a href="https://www.vancouverislandfreedaily.com/submit/">Submit news tip or photo</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-198583"><a href="/puzzles/">Puzzles</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-198552"><a href="/contests/">Contests</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-177"><a href="https://www.vancouverislandfreedaily.com/sports/">Sports</a>
+<ul class="vertical nested menu">
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-178"><a href="https://www.vancouverislandfreedaily.com/local-sports/">Island</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-571"><a target="_blank" rel="noopener" href="http://www.bclocalnews.com/sports/">BC</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-post_tag menu-item-579"><a href="https://www.vancouverislandfreedaily.com/tag/canucks/">Canucks</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-post_tag menu-item-578"><a href="https://www.vancouverislandfreedaily.com/tag/bchl/">BCHL</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-post_tag menu-item-583"><a href="https://www.vancouverislandfreedaily.com/tag/nhl/">NHL</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-post_tag menu-item-582"><a href="https://www.vancouverislandfreedaily.com/tag/nfl/">NFL</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-post_tag menu-item-581"><a href="https://www.vancouverislandfreedaily.com/tag/nba/">NBA</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-post_tag menu-item-584"><a href="https://www.vancouverislandfreedaily.com/tag/mlb/">MLB</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-179"><a href="https://www.vancouverislandfreedaily.com/national-sports/">Canada &amp; World</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-180"><a href="https://www.vancouverislandfreedaily.com/submit/">Submit sports tip or photo</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-106338"><a target="_blank" rel="noopener" href="//www.westcoasttraveller.com/">Travel</a>
+<ul class="vertical nested menu">
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-106649"><a href="https://www.vancouverislandfreedaily.com/travel/">Local Travel</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-106650"><a target="_blank" rel="noopener" href="//www.westcoasttraveller.com/">West Coast Traveller</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-181"><a href="https://www.vancouverislandfreedaily.com/trending-now/">Trending Now</a></li>
+<li class="hide menu-item menu-item-type-custom menu-item-object-custom menu-item-82935"><a href="//autos.vancouverislandfreedaily.com/">Autos</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-48041"><a target="_blank" rel="noopener" href="//usedvictoria.com">Classifieds</a>
+<ul class="vertical nested menu">
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-242120"><a target="_blank" rel="noopener" href="//usedvictoria.com">View ad</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-242329"><a target="_blank" rel="noopener" href="//www.bcclassifieds.com/placead_categories.cmp">Place an ad</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-15111"><a target="_blank" rel="noopener" href="//www.localwork.ca">Jobs</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-has-children menu-item-182"><a href="https://www.vancouverislandfreedaily.com/business/">Business</a>
+<ul class="vertical nested menu">
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-183"><a href="https://www.vancouverislandfreedaily.com/local-business/">Island</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-572"><a target="_blank" rel="noopener" href="http://bclocalnews.com/business">BC</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-185"><a href="https://www.vancouverislandfreedaily.com/submit/">Submit business tip or photo</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-186"><a href="https://www.vancouverislandfreedaily.com/entertainment/">Entertainment</a>
+<ul class="vertical nested menu">
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-187"><a href="https://www.vancouverislandfreedaily.com/local-entertainment/">Island</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-573"><a target="_blank" rel="noopener" href="http://bclocalnews.com/entertainment">BC</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-post_tag menu-item-792"><a href="https://www.vancouverislandfreedaily.com/tag/canada-world/">Canada &amp; World</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-189"><a href="https://www.vancouverislandfreedaily.com/submit/">Submit entertainment tip or photo</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-67681"><a href="https://www.vancouverislandfreedaily.com/photo-galleries/">Photo Galleries</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-190"><a href="https://www.vancouverislandfreedaily.com/life/">Life</a>
+<ul class="vertical nested menu">
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-27301"><a href="https://www.vancouverislandfreedaily.com/life/">Life</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-191"><a href="https://www.vancouverislandfreedaily.com/life/">Island</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-post_tag menu-item-585"><a href="https://www.vancouverislandfreedaily.com/tag/food/">Food</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-post_tag menu-item-586"><a href="https://www.vancouverislandfreedaily.com/tag/health/">Health</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-post_tag menu-item-587"><a href="https://www.vancouverislandfreedaily.com/tag/horoscopes/">Horoscopes</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-post_tag menu-item-588"><a href="https://www.vancouverislandfreedaily.com/tag/travel/">Travel</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-193"><a target="_blank" rel="noopener" href="http://winetrails.ca">Wine Trails</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-194"><a href="https://www.vancouverislandfreedaily.com/submit/">Submit life tip or photo</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-28205"><a href="https://www.vancouverislandfreedaily.com/community/">Community</a>
+<ul class="vertical nested menu">
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-21200"><a href="https://www.vancouverislandfreedaily.com/miss-bc/">Miss BC</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-69653"><a href="https://www.vancouverislandfreedaily.com/social-matters/">Social Matters</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-28207"><a target="_blank" rel="noopener" href="//www.facebook.com/iLoveBritishColumbia">I Love British Columbia</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-28208"><a href="https://www.vancouverislandfreedaily.com/submit/">Submit community tip or photo</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-282"><a href="https://www.vancouverislandfreedaily.com/opinion/">Opinion</a>
+<ul class="vertical nested menu">
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-204"><a href="https://www.vancouverislandfreedaily.com/opinion/">Island Opinion</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-202"><a href="https://www.vancouverislandfreedaily.com/editorials-opinion/">Editorials</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-201"><a href="https://www.vancouverislandfreedaily.com/columns/">Columnists</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-362"><a href="https://www.vancouverislandfreedaily.com/web-poll/">Web poll</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-206"><a href="https://www.vancouverislandfreedaily.com/submitletters/">Submit letter</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-210"><a href="/video/">Video</a>
+<ul class="vertical nested menu">
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-28206"><a href="/video/">Video</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-229201"><a href="/auto-showcase/">Auto Showcase</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-141107"><a href="/impress-tv/">Sponsored Video</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-211"><a href="https://www.vancouverislandfreedaily.com/videos/">Island</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-212"><a href="https://www.vancouverislandfreedaily.com/submit/">Submit video</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-214"><a href="https://www.vancouverislandfreedaily.com/weather/">Weather</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-45468"><a href="https://www.vancouverislandfreedaily.com/obituaries/">Obituaries</a>
+<ul class="vertical nested menu">
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-141988"><a href="https://www.vancouverislandfreedaily.com/obituaries/">Obituaries</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-141991"><a href="/tag/celebrations-of-life/">Celebrations of Life</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-141992"><a href="/funeral-care-services/">Funeral Care Services</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-141997"><a href="https://www.vancouverislandfreedaily.com/in-memory/">In Memory</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-142002"><a href="/contact-us/?ref=contact-us-obituaries">Place an Obituary</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-217"><a href="https://www.vancouverislandfreedaily.com/marketplace/">Marketplace</a>
+<ul class="vertical nested menu">
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-141108"><a href="https://www.vancouverislandfreedaily.com/marketplace/">Impress</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-18990"><a target="_blank" rel="noopener" href="//impresstv.blackpress.ca">Impress Studio</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-275"><a href="https://www.vancouverislandfreedaily.com/advertise/">Place an ad</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-224"><a href="https://www.vancouverislandfreedaily.com/contact-us/">Contact Us</a>
+<ul class="vertical nested menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-225"><a href="https://www.vancouverislandfreedaily.com/contact-us/">Contact Us</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-226"><a href="https://www.vancouverislandfreedaily.com/our-team/">Our Team</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-230"><a target="_blank" rel="noopener" href="http://blackpress.ca">Black Press</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-231"><a href="https://www.vancouverislandfreedaily.com/submit/">Submit tip or photo</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-227"><a href="https://www.vancouverislandfreedaily.com/faq/">FAQ</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-228"><a href="https://www.vancouverislandfreedaily.com/privacy-policy/">Privacy Policy</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-229"><a href="https://www.vancouverislandfreedaily.com/terms-of-use/">Terms of use</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-87068"><a href="https://www.vancouverislandfreedaily.com/site-map/">Site Map</a></li>
+</ul></nav>
+                            </div>
+        </nav>
+        
+        
+            <!-- taboola code -->
+                <script type="text/javascript">
+                window._taboola = window._taboola || [];
+                _taboola.push({article:'auto'});
+                !function (e, f, u, i) {
+                if (!document.getElementById(i)){
+                    e.async = 1;
+                    e.src = u;
+                    e.id = i;
+                    f.parentNode.insertBefore(e, f);
+                }
+                }(document.createElement('script'),
+                document.getElementsByTagName('script')[0],
+                '//cdn.taboola.com/libtrc/blackpressmedia-network/loader.js',
+                'tb_loader_script');
+                if(window.performance && typeof window.performance.mark == 'function')
+                {window.performance.mark('tbl_ic');}
+            </script>
+            
+
+    </header>
+
+    <section class="container">
+        <!-- Elevator: return to Top -->
+        <a id="return-to-top" href="javascript:" ><i class="fa fa-chevron-up"></i></a>
+        
+        
+
+<div id="single-post" role="main">
+
+    <div class="row module ad">
+        <div class="large-12 columns ad text-center">
+                </div>
+    </div>
+
+    <!-- Number of attachments: 3 --><!-- Featured Image Layout: medium -->
+
+                <article class="main-content post-11304 post type-post status-publish format-standard has-post-thumbnail hentry category-business category-home2 category-local-business category-news" id="post-11304">
+
+        
+        <header>
+            <div class="post-attachment" alt="&lt;1024 - &gt;640"><img width="1400" height="936" src="https://www.vancouverislandfreedaily.com/wp-content/uploads/2018/03/11129398_web1_180320-PNR-pagesbooks1.jpg" class="attachment-full size-full" alt="Pages Books in Brentwood Bay falls on hard times" decoding="async" loading="lazy" srcset="https://www.vancouverislandfreedaily.com/wp-content/uploads/2018/03/11129398_web1_180320-PNR-pagesbooks1.jpg 1400w, https://www.vancouverislandfreedaily.com/wp-content/uploads/2018/03/11129398_web1_180320-PNR-pagesbooks1-300x201.jpg 300w, https://www.vancouverislandfreedaily.com/wp-content/uploads/2018/03/11129398_web1_180320-PNR-pagesbooks1-1024x685.jpg 1024w, https://www.vancouverislandfreedaily.com/wp-content/uploads/2018/03/11129398_web1_180320-PNR-pagesbooks1-640x428.jpg 640w, https://www.vancouverislandfreedaily.com/wp-content/uploads/2018/03/11129398_web1_180320-PNR-pagesbooks1-1200x802.jpg 1200w" sizes="(max-width: 320px) 93vw, (max-width: 639px) 97vw, (max-width: 1023px) 63vw, 640px" /><p></p></div>
+                                                                        
+            <h2 class="entry-title">Pages Books in Brentwood Bay falls on hard times</h2>
+            <p class="lead">Store has been closed for several weeks, GoFundMe started by a fan
+</p>            <ul class="author-meta"><li><a class="byline" href="https://www.vancouverislandfreedaily.com/author/hugo-wong/" rel="author" >Hugo Wong</a></li><li>Mar. 20, 2018 5:30 p.m.</li><li><a class="byline" href="https://www.vancouverislandfreedaily.com/business/">Business</a></li><li><a class="byline" href="https://www.vancouverislandfreedaily.com/local-business/">Local Business</a></li><li><a class="byline" href="https://www.vancouverislandfreedaily.com/news/">News</a></li></ul>            <ul class="social story top">
+	<li><span data-tooltip aria-haspopup="true" data-disable-hover="false" tabindex="1" title="Post to Facebook"><a href="//www.facebook.com/sharer.php?u=https%3A%2F%2Fwww.vancouverislandfreedaily.com%2Fbusiness%2Fpages-books-in-brentwood-bay-falls-on-hard-times%2F" class="social fa fa-facebook-f" target="_blank"></a></span></li>
+	<li><span data-tooltip aria-haspopup="true" data-disable-hover="false" tabindex="1" title="Post to Twitter"><a href="//twitter.com/intent/tweet?text=Pages+Books+in+Brentwood+Bay+falls+on+hard+times&amp;url=https%3A%2F%2Fwww.vancouverislandfreedaily.com%2Fbusiness%2Fpages-books-in-brentwood-bay-falls-on-hard-times%2F" class="social fa fa-twitter" target="_blank"></a></span></li>
+	<li><span data-tooltip aria-haspopup="true" data-disable-hover="false" tabindex="1" title="Post to Reddit"><a href="//reddit.com/submit?url=https%3A%2F%2Fwww.vancouverislandfreedaily.com%2Fbusiness%2Fpages-books-in-brentwood-bay-falls-on-hard-times%2F&title=Pages+Books+in+Brentwood+Bay+falls+on+hard+times" class="social fa fa-reddit-alien" target="_blank"></a></span></li>
+	
+	
+	<li><span data-tooltip aria-haspopup="true" data-disable-hover="false" tabindex="1" title="Email story"><a href="mailto:?subject=Pages%20Books%20in%20Brentwood%20Bay%20falls%20on%20hard%20times&amp;body=https%3A%2F%2Fwww.vancouverislandfreedaily.com%2Fbusiness%2Fpages-books-in-brentwood-bay-falls-on-hard-times%2F" class="social fa fa-envelope-o"></a></span></li>
+
+	<li><span data-tooltip aria-haspopup="true" data-disable-hover="false" tabindex="1" title="Print story"><a href="javascript:window.print();" class="social fa fa-print"></a></span></li>
+	
+
+	<li><span data-tooltip aria-haspopup="true" data-disable-hover="false" tabindex="1" title="Jump to comments"><a href="#facebook-comments" class="social fa fa-comment-o"></a></span></li>
+
+
+	<li><span data-tooltip aria-haspopup="true" data-disable-hover="false" tabindex="1" title="View 1 additional image"><a href="https://www.vancouverislandfreedaily.com/business/pages-books-in-brentwood-bay-falls-on-hard-times/#gallery" class="social fa fa-picture-o"></a></span></li>
+
+
+</ul>
+        
+
+    </header>
+         <div class='row module ad'>
+                        <div class='small-12 columns ad text-center'>
+                            
+                        </div>
+                    </div>        
+        <!-- ZEPHR_FEATURE vancouver-island-subscription-journey -->        <div class="entry-content">
+
+        <p>Pages Used Books, a Brentwood Bay fixture for more than 30 years, has been shuttered and a GoFundMe page has been started to help the owner and eventually the business.</p>
+<p>Ritch Primrose, a frequent customer who started the fundraiser, says the owner, Max, is going through personal and financial difficulties, including some health issues.</p>
+<p>Primrose said the owner poured his life savings into trying to save the store. The store has been closed for about a month, with the owner locked out.</p>
+<p>&ldquo;I started the GoFundMe first and foremost to help the owner, because it sounded like the owner was barely making ends meet,&rdquo; said Primrose.</p>
+<p>The fundraiser has raised $2,090 of their $5,000 goal as of Tuesday, and Primrose said &ldquo;the dream would be to raise enough to find a way to get the store up and running again,&rdquo; but he acknowledged that is into the future.</p>
+<p>&ldquo;As stores like this close, our little communities will never get them back,&rdquo; said Primrose, who says his last purchase at the bookstore was <em>The Alchemist, </em>a novel by Paulo Coelho.</p>
+<p>Primrose is concerned with the dearth of bookstores in Brentwood Bay, where residents &ldquo;won&rsquo;t be able to buy a book or magazine unless they drive into Sidney or into town.&rdquo;</p>
+<p>Community donations have come from businesses and individuals alike. Patrons of the Brentwood Bay Village Empourium, which is next to the bookstore, have given $150 to the cause.</p>
+<p>Primrose says he&rsquo;s been in regular contact with the owner, who he said is not a fan of the spotlight, and said &ldquo;they&rsquo;re thrilled the community has rallied around them. They certainly didn&rsquo;t ask for this at all.&rdquo;</p>
+<p>Through Primrose, the owner Max said, &ldquo;I am so incredibly grateful for the support the community has shown. We are shocked really, and never expected anything like this. Thank you from the bottom of our hearts.&rdquo;</p>
+<p><em>To learn more, visit gofundme.com/savepagesbooks.</em></p>
+<p>reporter@peninsulanewsreview.com</p>
+<!-- AI CONTENT END 1 -->
+        <a name="gallery"></a><p>&nbsp;</p><div class="post-attachment"><a href='https://www.vancouverislandfreedaily.com/wp-content/uploads/2018/03/11129398_web1_180320-PNR-pagesbooks2.jpg'><img width="1400" height="936" src="https://www.vancouverislandfreedaily.com/wp-content/uploads/2018/03/11129398_web1_180320-PNR-pagesbooks2.jpg" class="attachment-full size-full" alt="Pages Books in Brentwood Bay falls on hard times" decoding="async" loading="lazy" srcset="https://www.vancouverislandfreedaily.com/wp-content/uploads/2018/03/11129398_web1_180320-PNR-pagesbooks2.jpg 1400w, https://www.vancouverislandfreedaily.com/wp-content/uploads/2018/03/11129398_web1_180320-PNR-pagesbooks2-300x201.jpg 300w, https://www.vancouverislandfreedaily.com/wp-content/uploads/2018/03/11129398_web1_180320-PNR-pagesbooks2-1024x685.jpg 1024w, https://www.vancouverislandfreedaily.com/wp-content/uploads/2018/03/11129398_web1_180320-PNR-pagesbooks2-640x428.jpg 640w, https://www.vancouverislandfreedaily.com/wp-content/uploads/2018/03/11129398_web1_180320-PNR-pagesbooks2-1200x802.jpg 1200w" sizes="(max-width: 320px) 93vw, (max-width: 639px) 97vw, (max-width: 1023px) 63vw, 640px" /></a><p></p></div>                </div>
+        
+        <!-- ZEPHR_FEATURE_END vancouver-island-subscription-journey -->        
+        
+
+        <footer>
+                    </footer>
+        
+        
+                <!-- Comments disabled for now -->
+        <!-- <a class="hollow expanded button comments day-" href="">View Comments <i class="fa fa-comment-o"></i></a> -->
+        
+        <!-- BEGIN: Comments  -->
+                          
+                            <div id="facebook-comments">
+                                <div class="fb-comments" data-href="https://www.vancouverislandfreedaily.com/business/pages-books-in-brentwood-bay-falls-on-hard-times/" data-width="100%" data-numposts="10" data-order-by="reverse_time" data-colorscheme="light"></div>
+                            </div>
+                <!-- END: Comments -->
+        
+        <div class="row" style="padding-bottom: 1.5rem;"><div class="columns small-12 medium-12 large-6"><div class='code-block code-block-14' style='margin: 8px auto; text-align: center; display: block; clear: both;'>
+<div id="div-gpt-14" class="gpt-ad">
+<script type='text/javascript'>
+    googletag.cmd.push(function() { googletag.display('div-gpt-14');gptRefreshSlots.push(14); });
+</script>
+</div></div>
+</div><div class="columns small-12 medium-12 large-6"></div></div>        
+    </article>
+
+
+<aside class="sidebar text-right">
+	<article id="ai_widget-3" class="widget ai_widget"><div class='code-block code-block-10' style='margin: 8px auto; text-align: center; display: block; clear: both;'>
+<div id="div-gpt-10" class="gpt-ad">
+<script type='text/javascript'>
+    googletag.cmd.push(function() { googletag.display('div-gpt-10');gptRefreshSlots.push(10); });
+</script>
+</div></div>
+</article><article id="ai_widget-4" class="widget ai_widget"><div class='code-block code-block-12' style='margin: 8px auto; text-align: center; display: block; clear: both;'>
+<div id="div-gpt-12" class="gpt-ad">
+<script type='text/javascript'>
+    googletag.cmd.push(function() { googletag.display('div-gpt-12');gptRefreshSlots.push(12); });
+</script>
+</div></div>
+</article><article id="ai_widget-17" class="widget ai_widget"><div class='code-block code-block-70' style='margin: 8px 0; clear: both;'>
+<!-- Sidebar below adunit12. See Widgets area. -->
+<div id="div-gpt-70" class="gpt-ad">
+<script type='text/javascript'>
+    googletag.cmd.push(function() { googletag.display('div-gpt-70');gptRefreshSlots.push(70); });
+</script>
+</div></div>
+</article><div class="row module-recirc"><div class="small-12 module-most-read columns"><div class="row">
+    <div class="small-12 module-trending story columns">
+        <h3 class="text-center">Most Read</h3>
+        <ul class="trending-maxi">
+                            <li>
+                <div id="post-245140" class="row story-list-item collapse">
+	<div class="small-12 columns">
+					<h4 class="count"></h4><h5><a onClick="__gaTracker('send','event','Recirculating Content','Click',' Most Read');" href="https://www.vancouverislandfreedaily.com/news/under-control-wildfire-south-of-gold-river-estimated-at-35-hectares/">Under control wildfire south of Gold River estimated at 35 hectares</a></h5>
+					</div>
+	
+	
+</div>
+            </li>
+                            <li>
+                <div id="post-245122" class="row story-list-item collapse">
+	<div class="small-12 columns">
+					<h4 class="count"></h4><h5><a onClick="__gaTracker('send','event','Recirculating Content','Click',' Most Read');" href="https://www.vancouverislandfreedaily.com/business/flight-delays-at-canadian-airlines-far-outstrip-peers-u-s-peers/">Flight delays at Canadian airlines far outstrip U.S. peers</a></h5>
+					</div>
+	
+	
+</div>
+            </li>
+                            <li>
+                <div id="post-245138" class="row story-list-item collapse">
+	<div class="small-12 columns">
+					<h4 class="count"></h4><h5><a onClick="__gaTracker('send','event','Recirculating Content','Click',' Most Read');" href="https://www.vancouverislandfreedaily.com/sports/greater-victoria-hockey-organizations-celebrate-move-to-junior-a-tier-2/">Greater Victoria hockey organizations celebrate move to Junior A, Tier 2</a></h5>
+					</div>
+	
+	
+</div>
+            </li>
+                            <li>
+                <div id="post-245147" class="row story-list-item collapse">
+	<div class="small-12 columns">
+					<h4 class="count"></h4><h5><a onClick="__gaTracker('send','event','Recirculating Content','Click',' Most Read');" href="https://www.vancouverislandfreedaily.com/news/chip-seal-work-begins-on-bamfield-main-in-final-phase-of-surfacing-project/">Chip seal work begins on Bamfield Main in &#8216;final phase&#8217; of surfacing project</a></h5>
+					</div>
+	
+	
+</div>
+            </li>
+                            <li>
+                <div id="post-245209" class="row story-list-item collapse">
+	<div class="small-12 columns">
+					<h4 class="count"></h4><h5><a onClick="__gaTracker('send','event','Recirculating Content','Click',' Most Read');" href="https://www.vancouverislandfreedaily.com/sports/vancouver-island-hockey-teams-celebrate-move-to-junior-a-tier-2/">Vancouver Island hockey teams celebrate move to Junior A, Tier 2</a></h5>
+					</div>
+	
+	
+</div>
+            </li>
+                </ul>
+    </div>
+</div></div></div><div class='code-block code-block-26' style='margin: 8px 0; clear: both;'>
+<div id="div-gpt-26" class="gpt-ad">
+<script type='text/javascript'>googletag.cmd.push(function() { googletag.display('div-gpt-26');gptRefreshSlots.push(26); });</script>
+</div></div>
+<div class='show-for-medium'>
+            <!-- taboola code -->
+                <div id="taboola-right-rail"></div>
+                <script type="text/javascript">
+                window._taboola = window._taboola || [];
+                _taboola.push({
+                    mode: 'thumbnails-c',
+                    container: 'taboola-right-rail',
+                    placement: 'Right Rail',
+                    target_type: 'mix'
+                });
+                </script>
+                
+            
+</div>
+</aside>
+
+</div>
+
+<div class="row module-adjacent-posts" data-equalizer data-equalize-on="medium">
+	    <div class="small-6 adjacent-prev columns" data-equalizer-watch>
+                    <a class="button" onClick="__gaTracker('send','event','Recirculating Content','Click','Previous Adjacent Story');" href="https://www.vancouverislandfreedaily.com/business/grocers-collaborate-on-new-local-food-awareness-initiative/">
+                <h5><i class="fa fa-chevron-left" aria-hidden="true"></i>Previous <span class="show-for-small-only">story </span></h5>
+                <span class="show-for-medium">
+                    <h6>Grocers collaborate on new local food awareness initiative</h6>
+                </span>
+            </a>
+            </div>
+    <div class="small-6 adjacent-next columns" data-equalizer-watch>
+                    <a class="button" onClick="__gaTracker('send','event','Recirculating Content','Click','Next Adjacent Story');" href="https://www.vancouverislandfreedaily.com/business/b-c-pioneered-wood-construction-on-a-roll-internationally/">
+                <h5>Next <span class="show-for-small-only">story </span><i class="fa fa-chevron-right" aria-hidden="true"></i></h5>
+                <span class="show-for-medium">
+                    <h6>B.C.-pioneered wood construction on a roll internationally</h6>
+                </span>
+            </a>
+            </div>
+</div><!-- AD SPOT -->
+<div class="row module ad">
+    <div class="large-12 columns ad text-center">
+        <div class='code-block code-block-15' style='margin: 8px auto; text-align: center; display: block; clear: both;'>
+<div id="div-gpt-15" class="gpt-ad">
+<script type='text/javascript'>
+    googletag.cmd.push(function() { googletag.display('div-gpt-15');gptRefreshSlots.push(15); });
+</script>
+</div></div>
+    </div>
+</div>
+
+<div class="row module-recirc">
+	<div class="small-12 columns">
+		<h3 class="text-center"><a onClick="__gaTracker('send','event','Recirculating Content','Click','Business Header');" href="https://www.vancouverislandfreedaily.com/business/">Just Posted</a></h3>
+        
+
+        <div class="row module-recirc">
+            <div class="small-12 module-recirc columns">
+                <!-- story-recirc-block --><div class="small-up-2 medium-up-2 large-up-4"><!-- Start - Single Card --><div class="column"><div class='card '><a onClick="__gaTracker('send','event','Recirculating Content','Click',' Post Block');" class="image" href="https://www.vancouverislandfreedaily.com/local-news/major-oak-bay-road-closed-as-police-investigate-body-discovered-in-bushes/"><img src="https://www.vancouverislandfreedaily.com/wp-content/uploads/2023/07/33422306_web1_2307-26-OBN-body-found-oak_1.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="Oak Bay police and the coroners service are on scene after the body was discovered in the 200 block of Beach Drive Road in the morning hours of Wednesday (July 26). (Jake Romphf photo/News)" decoding="async" loading="lazy" srcset="https://www.vancouverislandfreedaily.com/wp-content/uploads/2023/07/33422306_web1_2307-26-OBN-body-found-oak_1.jpg 1200w, https://www.vancouverislandfreedaily.com/wp-content/uploads/2023/07/33422306_web1_2307-26-OBN-body-found-oak_1-300x200.jpg 300w, https://www.vancouverislandfreedaily.com/wp-content/uploads/2023/07/33422306_web1_2307-26-OBN-body-found-oak_1-1024x683.jpg 1024w, https://www.vancouverislandfreedaily.com/wp-content/uploads/2023/07/33422306_web1_2307-26-OBN-body-found-oak_1-768x512.jpg 768w, https://www.vancouverislandfreedaily.com/wp-content/uploads/2023/07/33422306_web1_2307-26-OBN-body-found-oak_1-640x427.jpg 640w" sizes="(max-width: 639px) 50vw, (max-width: 1023px) 47vw, 300px" /></a> <div class="card-section"><a onClick="__gaTracker('send','event','Recirculating Content','Click',' Post Block');" class="image" href="https://www.vancouverislandfreedaily.com/local-news/major-oak-bay-road-closed-as-police-investigate-body-discovered-in-bushes/"><h5 class="active">VIDEO: Major Oak Bay road closed as police investigate body discovered in bushes</h5></a></p></div></div></div><!-- End - Single Card --><!-- Start - Single Card --><div class="column"><div class='card '><a onClick="__gaTracker('send','event','Recirculating Content','Click',' Post Block');" class="image" href="https://www.vancouverislandfreedaily.com/news/three-people-and-pet-escape-burning-home-in-nanaimos-north-end/"><img src="https://www.vancouverislandfreedaily.com/wp-content/uploads/2023/07/33409696_web1_230725-NBU-Sundown-Drive-fire-_1.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="Nanaimo Fire Rescue fire and loss prevention investigators go through the charred interior of a home in north Nanaimo following an early morning fire Tuesday, July 25. Three people and a pet escaped unharmed. (Chris Bush/News Bulletin)" decoding="async" loading="lazy" srcset="https://www.vancouverislandfreedaily.com/wp-content/uploads/2023/07/33409696_web1_230725-NBU-Sundown-Drive-fire-_1.jpg 1200w, https://www.vancouverislandfreedaily.com/wp-content/uploads/2023/07/33409696_web1_230725-NBU-Sundown-Drive-fire-_1-300x200.jpg 300w, https://www.vancouverislandfreedaily.com/wp-content/uploads/2023/07/33409696_web1_230725-NBU-Sundown-Drive-fire-_1-1024x683.jpg 1024w, https://www.vancouverislandfreedaily.com/wp-content/uploads/2023/07/33409696_web1_230725-NBU-Sundown-Drive-fire-_1-768x512.jpg 768w, https://www.vancouverislandfreedaily.com/wp-content/uploads/2023/07/33409696_web1_230725-NBU-Sundown-Drive-fire-_1-640x427.jpg 640w" sizes="(max-width: 639px) 50vw, (max-width: 1023px) 47vw, 300px" /></a> <div class="card-section"><a onClick="__gaTracker('send','event','Recirculating Content','Click',' Post Block');" class="image" href="https://www.vancouverislandfreedaily.com/news/three-people-and-pet-escape-burning-home-in-nanaimos-north-end/"><h5 class="active">Three people and pet escape burning home in Nanaimo&#8217;s north end</h5></a></p></div></div></div><!-- End - Single Card --><!-- Start - Single Card --><div class="column"><div class='card '><a onClick="__gaTracker('send','event','Recirculating Content','Click',' Post Block');" class="image" href="https://www.vancouverislandfreedaily.com/news/trailer-fire-in-campbell-river-likely-caused-by-cooking-deputy-fire-chief/"><img src="https://www.vancouverislandfreedaily.com/wp-content/uploads/2023/07/33413192_web1_230725-CRM-Quinsam-Road-fire-QTrailerFire_1.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="A fire Monday evening gutted this trailer located in Quinsam Heights Mobile Home. Photo by Edward Hitchins/Campbell River Mirror." decoding="async" loading="lazy" srcset="https://www.vancouverislandfreedaily.com/wp-content/uploads/2023/07/33413192_web1_230725-CRM-Quinsam-Road-fire-QTrailerFire_1.jpg 1200w, https://www.vancouverislandfreedaily.com/wp-content/uploads/2023/07/33413192_web1_230725-CRM-Quinsam-Road-fire-QTrailerFire_1-300x200.jpg 300w, https://www.vancouverislandfreedaily.com/wp-content/uploads/2023/07/33413192_web1_230725-CRM-Quinsam-Road-fire-QTrailerFire_1-1024x683.jpg 1024w, https://www.vancouverislandfreedaily.com/wp-content/uploads/2023/07/33413192_web1_230725-CRM-Quinsam-Road-fire-QTrailerFire_1-768x512.jpg 768w, https://www.vancouverislandfreedaily.com/wp-content/uploads/2023/07/33413192_web1_230725-CRM-Quinsam-Road-fire-QTrailerFire_1-640x427.jpg 640w" sizes="(max-width: 639px) 50vw, (max-width: 1023px) 47vw, 300px" /></a> <div class="card-section"><a onClick="__gaTracker('send','event','Recirculating Content','Click',' Post Block');" class="image" href="https://www.vancouverislandfreedaily.com/news/trailer-fire-in-campbell-river-likely-caused-by-cooking-deputy-fire-chief/"><h5 class="active">Trailer fire in Campbell River likely caused by cooking: deputy fire chief</h5></a></p></div></div></div><!-- End - Single Card --><!-- Start - Single Card --><div class="column"><div class='card '><a onClick="__gaTracker('send','event','Recirculating Content','Click',' Post Block');" class="image" href="https://www.vancouverislandfreedaily.com/news/alberni-valley-fire-crews-put-out-cedar-mill-fire-on-hector-road/"><img src="https://www.vancouverislandfreedaily.com/wp-content/uploads/2023/07/33405295_web1_230802-AVN-Fire-Hector-Rd-alberni_1.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="Port Alberni Fire Department puts out a fire at a mill site on Hector Road. (FACEBOOK PHOTO COURTESY PAFD)" decoding="async" loading="lazy" srcset="https://www.vancouverislandfreedaily.com/wp-content/uploads/2023/07/33405295_web1_230802-AVN-Fire-Hector-Rd-alberni_1.jpg 2048w, https://www.vancouverislandfreedaily.com/wp-content/uploads/2023/07/33405295_web1_230802-AVN-Fire-Hector-Rd-alberni_1-300x200.jpg 300w, https://www.vancouverislandfreedaily.com/wp-content/uploads/2023/07/33405295_web1_230802-AVN-Fire-Hector-Rd-alberni_1-1024x683.jpg 1024w, https://www.vancouverislandfreedaily.com/wp-content/uploads/2023/07/33405295_web1_230802-AVN-Fire-Hector-Rd-alberni_1-768x512.jpg 768w, https://www.vancouverislandfreedaily.com/wp-content/uploads/2023/07/33405295_web1_230802-AVN-Fire-Hector-Rd-alberni_1-1536x1025.jpg 1536w, https://www.vancouverislandfreedaily.com/wp-content/uploads/2023/07/33405295_web1_230802-AVN-Fire-Hector-Rd-alberni_1-640x427.jpg 640w, https://www.vancouverislandfreedaily.com/wp-content/uploads/2023/07/33405295_web1_230802-AVN-Fire-Hector-Rd-alberni_1-1200x800.jpg 1200w, https://www.vancouverislandfreedaily.com/wp-content/uploads/2023/07/33405295_web1_230802-AVN-Fire-Hector-Rd-alberni_1-1920x1281.jpg 1920w" sizes="(max-width: 639px) 50vw, (max-width: 1023px) 47vw, 300px" /></a> <div class="card-section"><a onClick="__gaTracker('send','event','Recirculating Content','Click',' Post Block');" class="image" href="https://www.vancouverislandfreedaily.com/news/alberni-valley-fire-crews-put-out-cedar-mill-fire-on-hector-road/"><h5 class="active">Alberni Valley fire crews put out cedar mill fire on Hector Road</h5></a></p></div></div></div><!-- End - Single Card --></div>            </div>
+
+            <!-- <div class="small-12 large-4 module-most-read columns"> -->
+                            <!-- </div> -->
+        </div>
+    </div>
+</div>
+
+<!-- [post-block post_type='post' taxonomy='category' tax_term='home' taxonomy_posts_per_page='5' taxonomy_2='category' tax_2_term='home2' taxonomy_2_posts_per_page='8' tax_operator='AND' post_template='story-recirc' current_story_id='$currentID' reverse_chron='$reverse_chron'] -->
+<div class="row">
+	<div class="small-12 columns">
+
+        <!--//*** Ad Unit 71 ***//-->
+        <div class='row module ad'>
+            <div class='small-12 columns ad text-center'>
+                <div class='code-block code-block-71' style='margin: 8px 0; clear: both;'>
+<!-- On article pages above Taboola in footer (not sidebar Taboola) -->
+<div id="div-gpt-71" class="gpt-ad horizontal">
+<script type='text/javascript'>
+    googletag.cmd.push(function() { googletag.display('div-gpt-71');gptRefreshSlots.push(71); });
+</script>
+</div></div>
+            
+            
+            </div>
+        </div>
+
+        <!--//*** Taboola article code ***//-->
+		
+            <!-- taboola code -->
+                <div id="taboola-below-article-thumbnails"></div>
+                <script type="text/javascript">
+                window._taboola = window._taboola || [];
+                _taboola.push({
+                    mode: 'thumbnails-a',
+                    container: 'taboola-below-article-thumbnails',
+                    placement: 'Below Article Thumbnails',
+                    target_type: 'mix'
+                });
+                </script>
+            
+
+        
+    </div>
+</div>
+
+
+        </section>
+        <div id="footer-container">
+            <footer id="footer">
+                
+                
+<div id="bp-logo" class="row">
+
+    <div class="small-12 columns">
+ 
+    <!-- *** BEGIN LOGO *** -->
+        <div class="textwidget">
+            <a class="pub-logo-small day-4" href="https://www.vancouverislandfreedaily.com/"><svg id="Outline" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 507.03 37.74"><defs><style>.cls-1{fill:#231f20;}</style></defs><title></title><path class="bp-pub-logo" d="M3,7.5H9.5L12.61,33h.1L16.13,7.5h5.35L16,43.81H8.43Z" transform="translate(-3.02 -6.79)"/><path class="bp-pub-logo" d="M28.11,7.5H37.7l4.49,36.31H35.81l-1-8.06H29.49l-.92,8.06H23Zm4.23,5.61h-.1L30.15,30.45h4.13Z" transform="translate(-3.02 -6.79)"/><path class="bp-pub-logo" d="M45.4,7.5h6.48l6.07,19.17H58V7.5h5.3V43.81H58.2l-7.09-22H51v22H45.4Z" transform="translate(-3.02 -6.79)"/><path class="bp-pub-logo" d="M79.52,20.66c0-6-.77-8.26-2.4-8.26-1.38,0-2.75.92-2.75,13.26,0,11.93.71,13.26,2.75,13.26,2.19,0,2.7-3.37,2.8-8.62l5.61.25c0,6.32-.92,14-8.67,14-7.09,0-9.43-6.94-9.43-18.87,0-13.87,4.18-18.87,9.43-18.87,7.65,0,8.57,7,8.57,13.67Z" transform="translate(-3.02 -6.79)"/><path class="bp-pub-logo" d="M98.9,6.79c5.86,0,9.69,4.54,9.69,18.87s-3.82,18.87-9.69,18.87S89.21,40,89.21,25.66,93,6.79,98.9,6.79ZM96.45,29.48c0,7.85.92,9.43,2.45,9.43s2.45-1.58,2.45-9.43V21.83c0-7.85-.92-9.43-2.45-9.43S96.45,14,96.45,21.83Z" transform="translate(-3.02 -6.79)"/><path class="bp-pub-logo" d="M112.67,7.5h6.63V35.6c0,1.63.36,3.31,2.29,3.31S124,37.33,124,35.6V7.5h5.61V34.73c0,7.14-3.16,9.79-8.47,9.79-5.1,0-8.52-2.65-8.52-9.79Z" transform="translate(-3.02 -6.79)"/><path class="bp-pub-logo" d="M132.76,7.5h6.48L142.35,33h.1l3.42-25.5h5.35l-5.46,36.31h-7.6Z" transform="translate(-3.02 -6.79)"/><path class="bp-pub-logo" d="M154.59,7.5h15v5.61h-8.36v9.28h6.17v5.92h-6.17V38.2h8.72v5.61H154.59Z" transform="translate(-3.02 -6.79)"/><path class="bp-pub-logo" d="M173.56,7.5H181c6.32,0,10.5,2.65,10.5,10.3,0,3.06-.92,7.14-3.88,8.87l3.93,17.13h-6.68l-3.11-15.6h-1.58v15.6h-6.63Zm6.63,15.4h1.33c2.45,0,3.37-2.45,3.37-5,0-3.93-1.43-5-3.67-5h-1Z" transform="translate(-3.02 -6.79)"/><path class="bp-pub-logo" d="M206,7.5h6.63V43.81H206Z" transform="translate(-3.02 -6.79)"/><path class="bp-pub-logo" d="M222.21,33.31c0,2,0,5.61,2.86,5.61,2.19,0,3-2,3-3.52,0-6.48-12-8-12-18.72,0-5.46,3-9.89,8.57-9.89,6,0,8.26,4.54,8.41,11.07h-5.92c0-2,0-5.46-2.65-5.46-1.58,0-2.5,1.33-2.5,3.31,0,6.17,12,8.26,12,18.82,0,5.56-3.16,10-9.13,10-7.09,0-8.52-6.22-8.52-11.22Z" transform="translate(-3.02 -6.79)"/><path class="bp-pub-logo" d="M237.56,7.5h6.63V38.2h8.47v5.61H237.56Z" transform="translate(-3.02 -6.79)"/><path class="bp-pub-logo" d="M259.8,7.5h9.59l4.49,36.31H267.5l-1-8.06h-5.35l-.92,8.06H254.7ZM264,13.11h-.1l-2.09,17.34H266Z" transform="translate(-3.02 -6.79)"/><path class="bp-pub-logo" d="M277.09,7.5h6.48l6.07,19.17h.1V7.5H295V43.81h-5.15l-7.09-22h-.1v22h-5.61Z" transform="translate(-3.02 -6.79)"/><path class="bp-pub-logo" d="M300.09,7.5h5.76C317,7.5,318,14.64,318,25.66c0,10.5-.87,18.15-11.12,18.15h-6.83Zm6.63,30.7c4.18-.05,4.38-1.58,4.38-12.6s-.2-12.44-4.38-12.49Z" transform="translate(-3.02 -6.79)"/><path class="bp-pub-logo" d="M333.75,7.5h14.84v5.61h-8.21V22.8h6.07v5.92h-6.07V43.81h-6.63Z" transform="translate(-3.02 -6.79)"/><path class="bp-pub-logo" d="M351.75,7.5h7.45c6.32,0,10.5,2.65,10.5,10.3,0,3.06-.92,7.14-3.87,8.87l3.93,17.13h-6.68L360,28.21h-1.58v15.6h-6.63Zm6.63,15.4h1.33c2.45,0,3.37-2.45,3.37-5,0-3.93-1.43-5-3.67-5h-1Z" transform="translate(-3.02 -6.79)"/><path class="bp-pub-logo" d="M373.53,7.5h15v5.61h-8.36v9.28h6.17v5.92h-6.17V38.2h8.72v5.61H373.53Z" transform="translate(-3.02 -6.79)"/><path class="bp-pub-logo" d="M392.5,7.5h15v5.61h-8.36v9.28h6.17v5.92h-6.17V38.2h8.72v5.61H392.5Z" transform="translate(-3.02 -6.79)"/><path class="bp-pub-logo" d="M422.38,7.5h5.76c11.12,0,12.19,7.14,12.19,18.15,0,10.5-.87,18.15-11.12,18.15h-6.83ZM429,38.2c4.18-.05,4.38-1.58,4.38-12.6s-.2-12.44-4.38-12.49Z" transform="translate(-3.02 -6.79)"/><path class="bp-pub-logo" d="M448.39,7.5H458l4.49,36.31h-6.37l-1-8.06h-5.35l-.92,8.06h-5.56Zm4.23,5.61h-.1l-2.09,17.34h4.13Z" transform="translate(-3.02 -6.79)"/><path class="bp-pub-logo" d="M465.68,7.5h6.63V43.81h-6.63Z" transform="translate(-3.02 -6.79)"/><path class="bp-pub-logo" d="M477.36,7.5H484V38.2h8.46v5.61H477.36Z" transform="translate(-3.02 -6.79)"/><path class="bp-pub-logo" d="M497.35,29.79,491.28,7.5h6.58L501,21.73h.1L504.49,7.5H510L504,29.18V43.81h-6.63Z" transform="translate(-3.02 -6.79)"/></svg></a>        </div>
+
+    <!-- *** END LOGO *** -->
+    </div>            
+        
+</div><!-- row -->
+
+<div id="bp-social-footer" class="row">
+    <div class="small-12 columns">
+                    
+        <div class="textwidget">
+            <ul class="social footer">
+	<li><a title="Follow us on Facebook" class="social fa fa-facebook-f" href="https://www.facebook.com/vifreedaily/" target="_blank"></a></li>
+	<li><a title="Follow us on Twitter" class="social fa fa-twitter" href="https://twitter.com/vifreedaily" target="_blank"></a></li>
+	<li><a title="Follow us on Instagram" class="social fa fa-instagram" href="https://www.instagram.com/vifreedaily/?hl=en"  target="_blank"></a></li>
+	<!-- <li><a title="RSS Feed" class="social fa fa-rss" href="/feed/"></a></li> -->
+<li><a title="Submit a story" href="/submit/">
+            <img style="margin-bottom:0;width: 34px;height: 34px;" 
+            src="/wp-content/themes/BlackPress/assets/images/submit.png"></a>
+            </li></ul>        </div>
+
+    </div>
+</div><!-- row -->
+
+<div id="bp-site-map-title" class="row" >
+    <div class="small-12 columns" >
+                
+        <div class="textwidget" >        
+             <h4 class="text-center">Explore Vancouver Island Free Daily</h4>
+        </div>
+
+    </div>
+</div><!-- row -->   
+
+<!-- <div id="bp-site-map" class="row" > -->
+<div id="bp-site-map" class="small-12 column row" >
+    <!-- <div class="small-12 columns"> -->
+
+        <ul><li><a href="/news/">NEWS</a></li><li><a href="/sports/">SPORTS</a></li><li><a href="/trending-now/">TRENDING NOW</a></li><li><a href="/business/">BUSINESS</a></li><li><a href="/entertainment/">ENTERTAINMENT</a></li><li><a href="/life/">LIFE</a></li><li><a href="/opinion/">OPINION</a></li><li><a href="/video/">VIDEOS</a></li><li><a href="/weather/">WEATHER</a></li><li><a href="//www.westcoasttraveller.com/" target="_blank">TRAVEL</a></li><li><a href="/marketplace/">MARKETPLACE</a></li><li><a href="/contests/">CONTESTS</a></li><li><a href="/contact-us/">CONTACT US</a></li></ul>                             
+
+    <!-- </div>  -->                        
+</div><!-- row -->
+
+<div id="bp-media-group" class="row" >
+    
+    <div class="small-12 columns">
+                
+        <div class="textwidget">
+            
+            <a href="//www.blackpress.ca/publications/" target="_blank">BLACK PRESS MEDIA</a>      
+           
+        </div>
+
+    </div>
+    
+    <div class="small-12 columns menu-footer-container">
+        <ul id="menu-footer" class="menu" >
+            
+                    
+        
+        </ul>
+        
+    </div>
+
+    <!-- black press media logo-->
+    <div class="small-12 columns">
+        <div class="textwidget">
+                   
+            <a href="//www.blackpress.ca/publications/">
+                        <img style="max-width: 300px;padding-top: 2rem;" src="https://www.vancouverislandfreedaily.com/wp-content/themes/BlackPress/assets/images/BlackPressMedia.svg" alt="Black Press Media" ></a>        </div>
+
+    </div>
+
+
+</div><!-- row -->
+
+
+<div id="bp-terms" class="row" >
+    
+    <div class="small-12 columns">
+        
+        <ul id="menu-footer" class="menu">
+            
+            <li class="menu-item"><a target="_blank" href="https://www.vancouverislandfreedaily.com/contact-us/">Contact Us</a></li><li class="menu-item"><a target="_blank" href="https://www.vancouverislandfreedaily.com/our-team/">Our Team</a></li><li class="menu-item"><a target="_blank" href="https://www.vancouverislandfreedaily.com/privacy-policy/">Privacy Policy</a></li><li class="menu-item"><a target="_blank" href="https://www.vancouverislandfreedaily.com/terms-of-use/">Terms of use</a></li><li class="menu-item"><a target="_blank" href="https://www.vancouverislandfreedaily.com/site-map/">Site Map</a></li><li class="menu-item"><a target="_blank" href="https://www.vancouverislandfreedaily.com/local-news/">Vancouver Island News</a></li><li class="menu-item"><a target="_blank" href="https://www.vancouverislandfreedaily.com/weather/">Vancouver Island  Weather</a></li><li class="menu-item"><a target="_blank" href="//www.bcclassifieds.com/?sfid=1">Vancouver Island Classifieds</a></li>      
+        </ul>
+
+    </div>
+
+    <div class="small-12 columns">
+                
+        <div class="textwidget">
+            &copy; 2023, <a href="#"></a>Vancouver Island Free Daily and <a href="http://www.blackpress.ca/">Black Press Group Ltd.</a>
+
+
+        </div>
+
+    </div>
+
+</div><!-- row -->
+
+                            </footer>
+        </div>
+
+        
+
+
+            <!-- Start Audience Pixel Snippet -->
+            <script>
+                (function() {
+                var a = String(Math.floor(Math.random() * 10000000000000000));
+                new Image().src = 'https://pubads.g.doubleclick.net/activity;dc_iu=/22692889424/DFPAudiencePixel;ord=' + a + ';dc_seg=7142327467?';
+                })();
+            </script>
+            <noscript>
+                <img src='https://pubads.g.doubleclick.net/activity;dc_iu=/22692889424/DFPAudiencePixel;ord=1;dc_seg=7142327467?' width=1 height=1 border=0/>
+            </noscript>
+            <!-- End Audience Pixel Snippet -->
+            <!-- Start Audience Pixel Snippet -->
+            <script>
+                (function() {
+                var a = String(Math.floor(Math.random() * 10000000000000000));
+                new Image().src = 'https://pubads.g.doubleclick.net/activity;dc_iu=/22692889424/DFPAudiencePixel;ord=' + a + ';dc_seg=7142546279?';
+                })();
+            </script>
+            <noscript>
+                <img src='https://pubads.g.doubleclick.net/activity;dc_iu=/22692889424/DFPAudiencePixel;ord=1;dc_seg=7142546279?' width=1 height=1 border=0/>
+            </noscript>
+            <!-- End Audience Pixel Snippet -->  
+    <!-- Start Catfish ad -->
+    <div style="position:fixed;bottom:0px;width:100%;background:white;">
+      <div class='code-block code-block-17' style='margin: 8px 0; clear: both;'>
+<!-- Reserved for Catfish ad. See display call in Footer. -->
+<div id="div-gpt-17" class="gpt-ad" style="margin: 0 auto;width:320px;">
+<script type='text/javascript'>
+    googletag.cmd.push(function() { googletag.display('div-gpt-17');gptRefreshSlots.push(17); });
+</script>
+</div></div>
+    </div>
+    <!-- End Catfish ad -->
+
+    <script type='text/javascript'>
+
+      function initialAdsLoad() {
+        // destroys slots that are not loaded on the page
+        for (i = 0; i < gptAdSlots.length; i++) { 
+          if(gptRefreshSlots.indexOf(i) == -1){                
+            googletag.destroySlots([gptAdSlots[i]]);
+          }
+        }
+
+        googletag.pubads().refresh(gptAdSlots);
+      }
+      
+      // // refresh ad slots every 1m15s
+      // function refreshAds() {
+      //   var nonRefreshSlots = [0, 1, 24]; // these ad units take multiple sizes, remove them from refresh ads list to avoid CLS
+      //   nonRefreshSlots.forEach( i => { delete gptAdSlots[i] }); // remove ad slots from array without reindexing
+      //   setInterval(function(){
+      //     googletag.pubads().refresh(gptAdSlots);
+      //   }, 75000);
+      // }
+
+      function requestGPTAds() {
+        googletag.cmd.push(function() {
+          initialAdsLoad();
+          // refreshAds();
+        })
+      }
+
+      requestGPTAds();    </script>
+  
+  
+<!-- Start Magnite Outstream Tags -->
+<script src="https://static.freeskreen.com/ba/110/freeskreen.min.js"></script>
+<!-- End Magnite Outstream Tags -->
+
+
+                    <style type="text/css">
+                        div.aw-widget-36hour-inner a.aw-arrow {
+                            z-index: 1 !important;
+                        }
+                                                            
+                        div.aw-widget-current [class*="bg-"] {
+                            background: none !important;
+                        }
+
+                        div.aw-current-weather-inner h3 {
+                            display: none;
+                        }
+
+                        div.aw-widget-current-inner div.aw-widget-content {
+                            border: none !important;
+                        }
+
+                        div.aw-widget-current-inner div.aw-widget-content.bg-cl, 
+                        div.aw-widget-current-inner div.aw-widget-content.bg-cl a.aw-current-weather, 
+                        div.aw-widget-current-inner div.aw-widget-content.bg-s, 
+                        div.aw-widget-current-inner div.aw-widget-content.bg-s a.aw-current-weather {
+                                color: #000 !important;
+                        }
+
+                        div.aw-widget-current-inner div.aw-widget-content a.aw-current-weather p span.aw-temperature-today b {
+                            font-weight: 600 !important;
+                            padding-left: 40px !important;
+                            font-size: 1.5rem !important;
+                        }
+
+                        div.aw-widget-current-inner div.aw-widget-content a.aw-current-weather p span.aw-temperature-today b:hover{
+                            color: #940c19;
+                        
+                        }
+
+                        div.aw-widget-current-inner div.aw-widget-content a.aw-current-weather p time {
+                            display: none !important;
+                        }
+
+                        div.aw-widget-current-inner div.aw-widget-content a.aw-current-weather p span.aw-weather-description {
+                            display: none !important;
+                        }
+                        
+                        div.aw-widget-current-inner a.aw-toggle {
+                            display: none !important;
+                        }
+
+                        div#weatherContainer {
+                            padding-top: 10px;
+                            padding-right: 10px;
+                        }
+
+                        .lt-106 div.aw-widget-current-inner div.aw-widget-content a.aw-current-weather span.aw-icon {
+                            background-position: 0 0 !important;
+                        }
+
+                        .lt-115 div.aw-widget-current-inner div.aw-widget-content a.aw-current-weather span.aw-icon {
+                            z-index: 1 !important;
+                        }
+
+                        .lt-479 div.aw-widget-current-inner div.aw-widget-content a.aw-current-weather p {
+                            z-index: 1 !important;
+                        }
+
+                        @media screen and (max-width: 39.9375em) {
+                            div.aw-widget-current-inner div.aw-widget-content a.aw-current-weather {
+                                color: #fff !important;
+                            }
+
+                            div#weatherContainer {
+                                padding-top: 10px;
+                            }
+
+                            div.aw-widget-current-inner div.aw-widget-content.bg-cl, 
+                            div.aw-widget-current-inner div.aw-widget-content.bg-cl a.aw-current-weather, 
+                            div.aw-widget-current-inner div.aw-widget-content.bg-s, 
+                            div.aw-widget-current-inner div.aw-widget-content.bg-s a.aw-current-weather {
+                                color: #fff !important;
+                            }
+
+                        }
+
+
+                        .lt-780 div.aw-widget-36hour-inner div.aw-more-block.aw-more-block-first {
+                            display: none;
+                        }
+                        
+                        .lt-780 div.aw-widget-36hour-inner div.aw-more-sep-3 {
+                            display: none;
+                        }
+                        
+                    </style>
+                <script type='text/javascript' src='//content.jwplatform.com/libraries/yrJQMy68.js?ver=1.0.0' id='jw-player-js'></script>
+<script type='text/javascript' src='https://www.vancouverislandfreedaily.com/wp-content/themes/BlackPress/assets/components/featherlight/featherlight.js?ver=1.6.1' id='featherlight-js'></script>
+<script type='text/javascript' id='foundation-js-extra'>
+/* <![CDATA[ */
+var foundation = {"is_front_page":"0"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://www.vancouverislandfreedaily.com/wp-content/themes/BlackPress/dest/javascript/foundation.min.js?ver=2.38.03' id='foundation-js'></script>
+<script type='text/javascript' src='https://www.vancouverislandfreedaily.com/wp-content/themes/BlackPress/dest/javascript/what-input/what-input.min.js?ver=4.0.3' id='what-input-js'></script>
+<script type='text/javascript' src='https://www.vancouverislandfreedaily.com/wp-content/themes/BlackPress/dest/javascript/frame_resize_2.0.min.js?ver=2.38.03' id='frame_resize-js'></script>
+<script type='text/javascript' src='https://www.vancouverislandfreedaily.com/wp-includes/js/comment-reply.min.js?ver=6.2.2' id='comment-reply-js'></script>
+<script type='text/javascript' src='//cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js?ver=1.9.0' id='slick-slider-js'></script>
+
+
+            <!-- taboola code -->
+                <script type="text/javascript">
+                window._taboola = window._taboola || [];
+                _taboola.push({flush: true});
+            </script>
+            
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"e4824da135","applicationID":"103630669","transactionName":"NFVWZ0YCCERXAkxeXQ0fdVBACglZGRJRWVUPVQ==","queueTime":0,"applicationTime":606,"atts":"GBJVEQ4YG0o=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>
